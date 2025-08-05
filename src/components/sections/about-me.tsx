@@ -33,8 +33,20 @@ const AboutMeSection = () => {
           <Typography variant="h3">
             Curious about me? Here you have it:
           </Typography>
+           <Typography>
+          I’m an AI-enabled, self-taught designer turned coder, passionate about crafting clean, modern interfaces that are both beautiful and intuitive. By integrating AI tools into my workflow, I accelerate ideation, streamline design, and deliver smarter, data-informed experiences for web and mobile.
+          </Typography>
           <Typography>
-            {/* I&apos;m a passionate,{' '}
+          From wireframes to polished visuals, I specialize in turning ideas into pixel-perfect interfaces and seamless user journeys, always driven by detail, clarity, and purposeful interaction.
+          </Typography>
+           <Typography>
+Over the years, I’ve been lucky to work on some amazing projects. I was a founding product designer at GreyAtom, building an online learning platform for software engineers that eventually got acquired by Browserstack. Before that, I was Sr. UI/UX Designer at Interactive Intelligence, creating advanced software solutions. Even earlier, I was a founding designer Customer360.co—a startup backed by CCAvenue and eBrandz—which was acquired by Interactive Intelligence in 2015.
+</Typography>
+           <Typography>
+I started freelancing because I love the variety—working across different industries, teaming up with all kinds of people, and tackling fresh challenges. It keeps my creativity sharp and helps me deliver designs that look beautiful and make a real impact for businesses.
+</Typography>
+         {/* <Typography>
+             I&apos;m a passionate,{' '}
              <Link
               noCustomization
               externalLink
@@ -42,15 +54,19 @@ const AboutMeSection = () => {
               href={EXTERNAL_LINKS.FIGMA}
             >
               self-proclaimed designer
-            </Link>{' '} */}
+            </Link>{' '} 
+            
+
+</Typography>*/}
+          {/* <Typography>
             I&apos;m a self-taught designer turned coder, who learned by doing—a creative problem-solver with a deep knowledge of human behavior and a desire to create thoughtful digital experiences. I love solving messy, undefined problems by delving into user research, using design principles, and bringing ideas to life as intuitive, interactive interfaces.
           </Typography>
           <Typography>
             From wireframes to prototypes, and finally to finished designs, I love bringing products to life—whether web or mobile. My aim? To create things that not only are beautiful but are easy to use and allow businesses to flourish.
-          </Typography>
-          <Typography>         
+          </Typography> */}
+          {/* <Typography>         
 📚 I’ve also completed a User-Centered Design course from the Interaction Design Foundation (IDF), which helped me sharpen my research and user-first approach.
-</Typography>
+</Typography> */}
           {/* <Typography>
             When I&apos;m not in full-on developer mode, you can find me
             hovering around on twitter or on indie hacker, witnessing the
@@ -77,7 +93,7 @@ const AboutMeSection = () => {
             .
           </Typography> */}
           <Typography>Finally, some quick bits about me.</Typography>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2"> 
             <div className="flex flex-col  md:gap-6 md:flex-row  gap-2">
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">
@@ -86,19 +102,21 @@ const AboutMeSection = () => {
               <Typography component="li">Full time freelancer</Typography>
             </ul>
             <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">Human Computer Interaction</Typography>
-              <Typography component="li">Aspiring indie hacker</Typography>
+              <Typography component="li">User centered design from IDF</Typography>
+              <Typography component="li">Building digital products</Typography>
             </ul>
             </div>
-            <div className="flex flex-col gap-2 md:flex-row">
+            {/* <div className="flex flex-col gap-2 md:flex-row">
              <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">Pursued undergraduate studies in commerce<br/><small>before transitioning to a career in design to focus on hands-on projects and development</small></Typography>
             </ul>
-            </div>
+            </div> */}
           </div>
           <Typography>
-            One last thing, I&apos;m available for freelance work, so feel free
-            to reach out and say hello! I promise I don&apos;t bite 😉
+            One last thing, I&apos;m available for freelance work, so feel free to reach out and say hello. Always happy to chat about new ideas or projects!
+            {/* I&apos;m available for freelance work, so feel free
+            to reach out and say hello! I promise I don&apos;t bite 😉 */}
+            
           </Typography>
         </div>
       </div>

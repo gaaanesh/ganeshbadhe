@@ -12,8 +12,8 @@ import Container from '@/components/layout/container';
 import useWindowSize from '@/hooks/use-window-size';
 import { copyTextToClipboard } from '@/lib/utils';
 
-let email = 'reachsagarshah@gmail.com';
-let phone = '+91 8980500565';
+let email = 'uxbyganesh@gmail.com';
+let phone = '+91 9867735357';
 
 type CopyValue = 'email' | 'phone';
 
@@ -47,9 +47,9 @@ const ContactSection = () => {
         <div className="self-center">
           <Tag label="Get in touch" />
         </div>
-        <Typography variant="subtitle" className="max-w-xl text-center">
+        <Typography variant="subtitle" className="max-w-2xl text-center">
           What’s next? Feel free to reach out to me if you are looking for a
-          developer, have a query, or simply want to connect.
+          designer/coder, have a query, or simply want to connect.
         </Typography>
       </div>
 

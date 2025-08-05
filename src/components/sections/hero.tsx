@@ -34,7 +34,7 @@ const HeroSection = () => {
               Crafting digital experiences for web and mobile
             </Typography>
             <Typography>
-              I&apos;m a UI/UX/Product Designer who also codes. I love creating clean, intuitive interfaces—and sometimes building them too. After 12+ years, I’m still just as excited about shaping experiences people actually enjoy using.
+              I&apos;m a UI/UX/Product Designer who also codes. I love creating clean, intuitive interfaces—and sometimes building them too. After 13+ years, I’m still just as excited about shaping experiences people actually enjoy using.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">

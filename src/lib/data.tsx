@@ -1,24 +1,39 @@
 import { Github, Twitter, Figma } from 'lucide-react';
 
+import LogoFigma from '/public/images/logos/icon-figma.svg';
+import LogoFramer from '/public/images/logos/design/framer-icon.svg';
+import LogoWebflow from '/public/images/logos/design/webflow-icon.svg';
+import LogoPhotoshop from '/public/images/logos/design/adobe-photoshop-icon.svg';
+import LogoIllustrator from '/public/images/logos/design/icons8-illustrator.svg';
+import LogoWordpress from '/public/images/logos/design/wordpress-icon.svg';
+import LogoHtml from '/public/images/logos/design/w3_html5-icon.svg';
+import LogoCss from '/public/images/logos/design/w3_css-icon.svg';
+import LogoBootstrap from '/public/images/logos/design/getbootstrap-icon.svg';
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
-import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
-import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
-import LogoExpress from '/public/images/logos/icon-express.svg';
-import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoNest from '/public/images/logos/icon-nest.svg';
-import LogoSocket from '/public/images/logos/icon-socket.svg';
-import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
-import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
 import LogoSass from '/public/images/logos/icon-sass.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoFigma from '/public/images/logos/icon-figma.svg';
-import LogoCypress from '/public/images/logos/icon-cypress.svg';
-import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
-import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
+import LogoGoogleanalytics from '/public/images/logos/design/google_analytics-icon.svg';
+import LogoHotjar from '/public/images/logos/design/Hotjar.svg';
+import LogoChatgpt from '/public/images/logos/design/ChatGPT_logo.svg';
+// import LogoProtopie from '/public/images/logos/design/protopie-2.svg';
+// import LogoRive from '/public/images/logos/design/rive_square.svg';
+
+
+// import LogoTypescript from '/public/images/logos/icon-typescript.svg';
+// import LogoReact from '/public/images/logos/icon-react.svg';
+// import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
+// import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
+// import LogoExpress from '/public/images/logos/icon-express.svg';
+// import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
+// import LogoNest from '/public/images/logos/icon-nest.svg';
+// import LogoSocket from '/public/images/logos/icon-socket.svg';
+// import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
+// import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
+// import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
+// import LogoCypress from '/public/images/logos/icon-cypress.svg';
+// import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
+// import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -85,57 +100,72 @@ export const SOCIAL_LINKS = [
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
+//   import LogoFigma from '/public/images/logos/icon-figma.svg';
+// import LogoFramer from '/public/images/logos/design/framer-icon.svg';
+// import LogoWebflow from '/public/images/logos/design/webflow-icon.svg';
+// import LogoPhotoshop from '/public/images/logos/design/adobe-photoshop-icon.svg';
+// import LogoIllustrator from '/public/images/logos/design/icons8-illustrator.svg';
+// import LogoWordpress from '/public/images/logos/design/wordpress-icon.svg';
+// import LogoHtml from '/public/images/logos/design/w3_html5-icon.svg';
+// import LogoCss from '/public/images/logos/design/w3_css-icon.svg';
+// import LogoBootstrap from '/public/images/logos/design/getbootstrap-icon.svg';
+// import LogoJavascript from '/public/images/logos/icon-javascript.svg';
+// import LogoSass from '/public/images/logos/icon-sass.svg';
+// import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
+// import LogoGit from '/public/images/logos/icon-git.svg';
+// import LogoGoogleanalytics from '/public/images/logos/design/google_analytics-icon.svg';
+// import LogoHotjar from '/public/images/logos/design/Hotjar.svg';
+// import LogoChatgpt from '/public/images/logos/design/ChatGPT_logo.svg';
+
+  {
+    label: 'Figma',
+    logo: LogoFigma,
+    url: 'https://www.figma.com/',
+  },
+  {
+    label: 'Framer',
+    logo: LogoFramer,
+    url: 'https://www.framer.com/',
+  },
+  {
+    label: 'Webflow',
+    logo: LogoWebflow,
+    url: 'https://webflow.com/',
+  },
+  {
+    label: 'Photoshop',
+    logo: LogoPhotoshop,
+    url: 'https://www.adobe.com/in/products/photoshop.html',
+  },
+  {
+    label: 'Illustrator',
+    logo: LogoIllustrator,
+    url: 'https://www.adobe.com/in/products/illustrator.html',
+  },
+  {
+    label: 'WordPress',
+    logo: LogoWordpress,
+    url: 'https://wordpress.com/',
+  },
+  {
+    label: 'HTML5',
+    logo: LogoHtml,
+    url: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5',
+  },
+  {
+    label: 'CSS3',
+    logo: LogoCss,
+    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+  },
+  {
+    label: 'Bootstrap',
+    logo: LogoBootstrap,
+    url: 'https://getbootstrap.com/',
+  },
   {
     label: 'Javascript',
     logo: LogoJavascript,
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-  },
-  {
-    label: 'Typescript',
-    logo: LogoTypescript,
-    url: 'https://www.typescriptlang.org/',
-  },
-  {
-    label: 'React',
-    logo: LogoReact,
-    url: 'https://react.dev/',
-  },
-  {
-    label: 'Next.js',
-    logo: LogoNextjs,
-    url: 'https://nextjs.org/',
-  },
-  {
-    label: 'Node.js',
-    logo: LogoNodejs,
-    url: 'https://nodejs.org/en',
-  },
-  {
-    label: 'Express.js',
-    logo: LogoExpress,
-    darkModeLogo: LogoExpressLight,
-    url: 'https://expressjs.com/',
-  },
-  {
-    label: 'Nest.js',
-    logo: LogoNest,
-    url: 'https://nestjs.com/',
-  },
-  {
-    label: 'Socket.io',
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
-    url: 'https://socket.io/',
-  },
-  {
-    label: 'PostgreSQL',
-    logo: LogoPostgreSQL,
-    url: 'https://www.postgresql.org/',
-  },
-  {
-    label: 'MongoDB',
-    logo: LogoMongoDB,
-    url: 'https://www.mongodb.com/',
   },
   {
     label: 'Sass/Scss',
@@ -147,27 +177,86 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoTailwindcss,
     url: 'https://tailwindcss.com/',
   },
-  {
-    label: 'Figma',
-    logo: LogoFigma,
-    url: 'https://www.figma.com/',
-  },
-  {
-    label: 'Cypress',
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: 'https://www.cypress.io/',
-  },
-  {
-    label: 'Storybook',
-    logo: LogoStorybook,
-    url: 'https://storybook.js.org/',
-  },
-  {
+    {
     label: 'Git',
     logo: LogoGit,
     url: 'https://git-scm.com/',
   },
+  {
+    label: 'Google Analytics',
+    logo: LogoGoogleanalytics,
+    url: 'https://developers.google.com/analytics',
+  },
+  {
+    label: 'Hotjar',
+    logo: LogoHotjar,
+    url: 'https://www.hotjar.com/',
+  },
+  {
+    label: 'Chatgpt',
+    logo: LogoChatgpt,
+    url: 'https://chatgpt.com/',
+  },
+  
+  // {
+  //   label: 'Typescript',
+  //   logo: LogoTypescript,
+  //   url: 'https://www.typescriptlang.org/',
+  // },
+  // {
+  //   label: 'React',
+  //   logo: LogoReact,
+  //   url: 'https://react.dev/',
+  // },
+  // {
+  //   label: 'Next.js',
+  //   logo: LogoNextjs,
+  //   url: 'https://nextjs.org/',
+  // },
+  // {
+  //   label: 'Node.js',
+  //   logo: LogoNodejs,
+  //   url: 'https://nodejs.org/en',
+  // },
+  // {
+  //   label: 'Express.js',
+  //   logo: LogoExpress,
+  //   darkModeLogo: LogoExpressLight,
+  //   url: 'https://expressjs.com/',
+  // },
+  // {
+  //   label: 'Nest.js',
+  //   logo: LogoNest,
+  //   url: 'https://nestjs.com/',
+  // },
+  // {
+  //   label: 'Socket.io',
+  //   logo: LogoSocket,
+  //   darkModeLogo: LogoSocketLight,
+  //   url: 'https://socket.io/',
+  // },
+  // {
+  //   label: 'PostgreSQL',
+  //   logo: LogoPostgreSQL,
+  //   url: 'https://www.postgresql.org/',
+  // },
+  // {
+  //   label: 'MongoDB',
+  //   logo: LogoMongoDB,
+  //   url: 'https://www.mongodb.com/',
+  // },
+  // {
+  //   label: 'Cypress',
+  //   logo: LogoCypress,
+  //   darkModeLogo: LogoCypressLight,
+  //   url: 'https://www.cypress.io/',
+  // },
+  // {
+  //   label: 'Storybook',
+  //   logo: LogoStorybook,
+  //   url: 'https://storybook.js.org/',
+  // },
+
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
