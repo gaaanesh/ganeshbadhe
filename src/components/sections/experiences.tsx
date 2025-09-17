@@ -1,8 +1,10 @@
+'use client';
 import { EXPERIENCES } from '@/lib/data';
 import ExperienceDetails from '@/components/data-display/experience-details';
 import Tag from '@/components/data-display/tag';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
+import Button from '@/components/general/button';
 
 const ExperienceSection = () => {
   return (
@@ -19,8 +21,15 @@ const ExperienceSection = () => {
       {EXPERIENCES?.map((experience, index) => (
         <ExperienceDetails {...experience} key={index} />
       ))}
+          <div className='text-center'>
+  <h3 className='text-center mb-2'>To know more about my experience</h3>
+    <Button onClick={() => window?.open('/files/ganesh-badhe-cv.pdf', '_blank')}>
+      Download CV
+    </Button>
+</div>
     </Container>
   );
 };
 
 export default ExperienceSection;
+

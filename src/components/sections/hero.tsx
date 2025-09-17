@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { MapPin } from 'lucide-react';
 
-import SagarHeadshot from '/public/images/ganeshbadhe-headshot.jpg';
+import SagarHeadshot from '/public/images/picofme (7).png';
 import SocialIcons from '@/components/data-display/social-icons';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';

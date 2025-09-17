@@ -20,7 +20,7 @@ const AboutMeSection = () => {
           <div className="relative h-[380px] w-[320px] md:h-[460px] md:w-[380px] lg:h-[520px] lg:w-[440px]">
             <Image
               src={SagarFullPose}
-              alt="Fullpose of Sagar"
+              alt="Fullpose of Ganesh Badhe"
               className="absolute z-10 h-[360px] w-[280px] border-8 border-gray-50 max-md:left-5 md:right-0 md:top-0 md:h-[420px] md:w-[340px] lg:h-[480px] lg:w-[400px]"
               style={{ objectFit: 'cover' }}
             ></Image>
@@ -40,7 +40,7 @@ const AboutMeSection = () => {
           From wireframes to polished visuals, I specialize in turning ideas into pixel-perfect interfaces and seamless user journeys, always driven by detail, clarity, and purposeful interaction.
           </Typography>
            <Typography>
-Over the years, I’ve been lucky to work on some amazing projects. I was a founding product designer at GreyAtom, building an online learning platform for software engineers that eventually got acquired by Browserstack. Before that, I was Sr. UI/UX Designer at Interactive Intelligence, creating advanced software solutions. Even earlier, I was a founding designer Customer360.co—a startup backed by CCAvenue and eBrandz—which was acquired by Interactive Intelligence in 2015.
+Over the years, Founding Product Designer at GreyAtom—led design of an online learning platform for software engineers; acqui-hired by Browserstack. Previously Sr. UI/UX Designer at Interactive Intelligence—shaped advanced software solutions. Early career as founding designer at Customer360.co (backed by CCAvenue & eBrandz)—acquired by Interactive Intelligence in 2015.
 </Typography>
            <Typography>
 I started freelancing because I love the variety—working across different industries, teaming up with all kinds of people, and tackling fresh challenges. It keeps my creativity sharp and helps me deliver designs that look beautiful and make a real impact for businesses.
@@ -97,7 +97,7 @@ I started freelancing because I love the variety—working across different indu
             <div className="flex flex-col  md:gap-6 md:flex-row  gap-2">
             <ul className="flex list-inside list-disc flex-col gap-2">
               <Typography component="li">
-                Animation &amp; Web design course
+                Animation &amp; Web design
               </Typography>
               <Typography component="li">Full time freelancer</Typography>
             </ul>

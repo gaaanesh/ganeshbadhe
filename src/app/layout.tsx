@@ -9,22 +9,28 @@ import Footer from '@/components/layout/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Sagar Shah | Full Stack Developer From Ahmedabad, India.';
+const title = 'Ganesh Badhe | UI/UX Designer & Frontend Developer From Mumbai, India.';
 const description =
-  'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
-const url = 'https://sagarshah.dev';
+  'Ganesh Badhe is a skilled UI/UX Designer and Frontend Developer with expertise in HTML, CSS, JavaScript, and Graphic Design. He specializes in creative problem-solving, strategic UI development, and delivering impactful digital experiences.';
+const url = 'https://ganeshbadhe.dev';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
   title,
   description,
   keywords: [
-    'Frontend Developer',
-    'Full Stack Developer',
-    'React Developer',
-    'Next.js Developer',
+    'App Design', 
+    'UI/UX Designer', 
+    'Website Design & Development', 
+    'HTML', 
+    'CSS', 
+    'JavaScript', 
+    'Graphic Design', 
+    'Website Redesign', 
+    'Strategic UI Development', 
+    'Product Design',
   ],
-  creator: 'Sagar Shah',
+  creator: 'Ganesh Badhe',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -37,17 +43,17 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: '/images/open-graph-sagar.png',
+        url: '/images/open-graph-ganesh.jpg',
       },
     ],
   },
-  twitter: {
-    card: 'summary_large_image',
-    title,
-    description,
-    creator: '@shahsagarm',
-    images: '/images/open-graph-sagar.png',
-  },
+  // twitter: {
+  //   card: 'summary_large_image',
+  //   title,
+  //   description,
+  //   creator: '@shahsagarm',
+  //   images: '/images/open-graph-ganesh.jpg',
+  // },
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',

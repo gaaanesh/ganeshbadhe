@@ -9,7 +9,7 @@ const SkillsSection = () => {
     <Container>
       <div className="flex flex-col items-center gap-4">
         <div className="self-center">
-          <Tag label="Skills" />
+          <Tag label="Tools and Technologies" />
         </div>
         <Typography variant="subtitle" className="max-w-xl text-center">
           The skills, tools and technologies I am really good at:

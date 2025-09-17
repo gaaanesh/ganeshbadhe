@@ -10,8 +10,8 @@ const Footer = () => {
       <div className="flex items-center justify-center gap-1">
         <Typography className="flex items-center" variant="body3">
           <Copyright className="mr-1 inline-block h-4 w-4" />
-          {new Date().getFullYear()} |&nbsp;
-          <Link
+          {new Date().getFullYear()} |&nbsp; Ganesh Badhe. All rights reserved. theme by Sagar.
+          {/* <Link
             noCustomization
             externalLink
             withUnderline
@@ -28,7 +28,7 @@ const Footer = () => {
           >
             coded
           </Link>
-          &nbsp;with ❤️️ by Sagar Shah
+          &nbsp;with ❤️️ by Sagar Shah */}
         </Typography>
       </div>
     </footer>
