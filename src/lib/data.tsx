@@ -44,6 +44,7 @@ import LogoDotnpixelLight from '/public/images/logos/company/greyatom-light-logo
 import LogoInteractiveintelligence from '/public/images/logos/company/interactive-intelligence-logo.png';
 import LogoInteractiveintelligenceLight from '/public/images/logos/company/interactive-intelligence-light-logo.png';
 
+import homeutilitiesLanding from '/public/images/homeutilities-landing-preview.jpg';
 import ProjectFiskil from '/public/images/project-greyatom.jpg';
 import ProjectWingie from '/public/images/project-floofers.jpg';
 import ProjectPepehousing from '/public/images/project-tribe-hr-management.jpg';
@@ -74,23 +75,23 @@ export const EXTERNAL_LINKS = {
 export const NAV_LINKS = [
   {
     label: 'About',
-    href: '#about',
+    href: '/#about',
   },
   {
     label: 'Services',
-    href: '#services',
+    href: '/#services',
   },
   {
     label: 'Work',
-    href: '#work',
+    href: '/projects',
   },
   {
     label: 'Testimonials',
-    href: '#testimonials',
+    href: '/#testimonials',
   },
   {
     label: 'Contact',
-    href: '#contact',
+    href: '/#contact',
   },
 ];
 
@@ -356,6 +357,24 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
+    name: 'HomeUtilities – Smart Expiry Tracker',
+    description:
+      'Landing page design for a smart expiry tracking app that helps users reduce food and medicine waste through clear storytelling and conversion-focused UX/UI.',
+    url: '/projects/homeutilities-landing-page',
+    previewImage: homeutilitiesLanding,
+    technologies: [
+      'ux design', 
+      'ui design', 
+      'landing page', 
+      'product design', 
+      'expiry tracker app', 
+      'saas design', 
+      'sustainability', 
+      'food waste', 
+      'conversion design',
+    ],
+  },
+  {
     name: 'Floofers — UX Case Study',
     description:
       'A pet-care platform connecting owners with trusted sitters and walkers. This case study covers user research and ideation, identifying pain points, creating personas, and designing intuitive, trustworthy solutions.',
@@ -374,6 +393,7 @@ export const PROJECTS: ProjectDetails[] = [
       'SCSS',
     ],
   },
+  
   {
     name: 'Greyatom',
     description:
