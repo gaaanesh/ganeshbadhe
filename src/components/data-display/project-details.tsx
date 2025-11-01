@@ -113,7 +113,7 @@ const AllProjectLayout = ({
         <Typography>{description}</Typography>
         <div className="flex flex-wrap gap-2">
           {technologies?.map((technology, index) => (
-            <Typography className='flex items-center justify-center rounded-xl bg-gray-200 px-3 py-1'><span className='text-xs font-medium'>{technology}</span></Typography>
+            <Typography key={index} className='flex items-center justify-center rounded-xl bg-gray-200 px-3 py-1'><span className='text-xs font-medium'>{technology}</span></Typography>
           ))}
         </div>
         <Link

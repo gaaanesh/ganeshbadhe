@@ -226,7 +226,7 @@ export default function LandingPage() {
               </div>
               <div className="flex flex-col gap-6 md:w-1/2 self-center">
                 <div className="self-stretch justify-center px-2">
-                  <span className="text-base font-bold leading-6">FAQ Section <br/></span>
+                  <span className="text-base font-bold leading-6">FAQ Section<br/></span>
                   <span className="text-base font-normal leading-6">Addresses potential user concerns, building confidence and transparency.</span>
                 </div>
               </div>
