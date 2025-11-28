@@ -65,7 +65,7 @@ import {
 
 export const EXTERNAL_LINKS = {
   // GITHUB: 'https://github.com/shahsagarm',
-  // GITHUB_REPO: 'https://github.com/shahsagarm/ganeshbadhe.in',
+  // GITHUB_REPO: 'https://github.com/shahsagarm/ganeshbadhe.dev',
   // TWITTER: 'https://twitter.com/shahsagarm',
   // FIGMA: 'https://www.figma.com/@shahsagarm',
   // FIGMA_FILE:

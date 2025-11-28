@@ -9,7 +9,7 @@ import { Providers } from '@/lib/providers';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const siteUrl = 'https://ganeshbadhe.in';
+const siteUrl = 'https://ganeshbadhe.dev';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
