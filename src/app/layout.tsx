@@ -60,7 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
       {googleAnalyticsId && (
         <head>
-          <Script async src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`} />
+          {/* <Script async src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`} />
           <Script id="google-anayltics-script">
             {`
               window.dataLayer = window.dataLayer || [];
@@ -69,8 +69,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               gtag('config', '${googleAnalyticsId}');
             `}
           </Script>
+          <!-- Google tag (gtag.js) --> */}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X2MEN4YWXH"></script>
+    <script>
+      {`window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-X2MEN4YWXH');`}
+    </script>
         </head>
       )}
+      
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
         <Providers>
           <Header />
