@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: '/public/images/homeUtilities-desktop-mobile-banner.png',
     images: [
       {
-        url: 'https://ganeshbadhe.dev/images/homeutilities-landing-preview.jpg',
+        url: 'https://ganeshbadhe.in/images/homeutilities-landing-preview.jpg',
         width: 1200,
         height: 630,
         alt: 'HomeUtilities Landing Page Preview – UX/UI Design by Ganesh Badhe',
