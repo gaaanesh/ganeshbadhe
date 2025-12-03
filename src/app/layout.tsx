@@ -39,10 +39,10 @@ export const metadata: Metadata = {
       'Creating seamless user experiences and impactful designs for startups and digital products.',
     images: ['/images/open-graph-ganesh.jpg'],
   },
-    twitter: {
+  twitter: {
     card: 'summary_large_image',
     title: 'Ganesh Badhe | UI/UX Designer & Frontend Developer From Mumbai, India',
-   description: 'Creating seamless user experiences and impactful designs for startups and digital products.',
+    description: 'Creating seamless user experiences and impactful designs for startups and digital products.',
     creator: '@gbbadhe',
     images: '/images/open-graph-ganesh.jpg',
   },
@@ -52,27 +52,34 @@ export const metadata: Metadata = {
   },
 };
 
-// const googleAnalyticsId = process.env.GOOGLE_ANALYTICS_ID;
 const googleAnalyticsId = process.env.NEXT_PUBLIC_GA_ID;
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="!scroll-smooth" suppressHydrationWarning>
-      {googleAnalyticsId && (
-        <head>
-          <Script async src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`} />
-          <Script id="google-anayltics-script">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${googleAnalyticsId}');
-            `}
-          </Script>
-        </head>
-      )}
-      
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
+        {googleAnalyticsId && (
+          <>
+            {/* Load GA script after page is interactive */}
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
+              strategy="afterInteractive"
+            />
+            <Script
+              id="google-analytics"
+              strategy="afterInteractive"
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${googleAnalyticsId}');
+                `,
+              }}
+            />
+          </>
+        )}
+
         <Providers>
           <Header />
           <main className="flex min-h-screen w-full flex-col">{children}</main>
