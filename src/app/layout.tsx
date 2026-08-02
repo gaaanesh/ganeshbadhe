@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 const siteUrl = 'https://ganeshbadhe.in';
 
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {

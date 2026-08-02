@@ -45,6 +45,7 @@ import LogoInteractiveintelligence from '/public/images/logos/company/interactiv
 import LogoInteractiveintelligenceLight from '/public/images/logos/company/interactive-intelligence-light-logo.png';
 
 import homeutilitiesLanding from '/public/images/homeutilities-landing-preview.jpg';
+import projectFloofersAI from '/public/images/project-floofers-ai.png';
 import ProjectFiskil from '/public/images/project-greyatom.jpg';
 import ProjectWingie from '/public/images/project-floofers.jpg';
 import ProjectPepehousing from '/public/images/project-tribe-hr-management.jpg';
@@ -357,6 +358,23 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
+    name: 'Floofers: AI-Powered Pet Care',
+    description:
+      'Making pet-sitting decisions 3x faster — turning a slow, overwhelming booking process into one pet parents and sitters actually trust with targeted AI features.',
+    url: '/projects/floofers-ai-pet-care',
+    previewImage: projectFloofersAI,
+    technologies: [
+      'UX/UI Design',
+      'AI Product Strategy',
+      'User Research',
+      'Persona Development',
+      'Interaction Design',
+      'Verification Flow',
+      'Matching System',
+      'Profile Generator',
+    ],
+  },
+  {
     name: 'HomeUtilities – Smart Expiry Tracker',
     description:
       'Landing page design for a smart expiry tracking app that helps users reduce food and medicine waste through clear storytelling and conversion-focused UX/UI.',
@@ -393,7 +411,6 @@ export const PROJECTS: ProjectDetails[] = [
       'SCSS',
     ],
   },
-  
   {
     name: 'Greyatom',
     description:
