@@ -58,7 +58,7 @@ export default function FloofersCaseStudyPage() {
             <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 bg-amber-100/60 dark:text-amber-300 dark:bg-amber-950/40 rounded-full px-3 py-1.5 border border-amber-200/50">
               <span className="w-1.5 h-1.5 rounded-full bg-amber-600"></span> UX/UI Case Study
             </span>
-            <h1 className="text-4xl md:text-6xl leading-[1.05] tracking-tight mt-6 font-bold text-theme-foreground">
+            <h1 className="text-4xl md:text-6xl leading-[1.05] tracking-tight mt-6 font-bold text-theme-foreground text-gray-800 dark:text-white">
               Floofers: transforming <span className="text-theme-secondary-foreground italic font-normal">pet care</span> with AI intelligence
             </h1>
             <p className="mt-6 text-lg md:text-xl text-theme-muted-foreground leading-relaxed max-w-2xl">
@@ -88,9 +88,11 @@ export default function FloofersCaseStudyPage() {
 
         {/* ============ IMPACT STRIP ============ */}
         <section className="max-w-6xl mx-auto px-6 md:px-10 py-10">
-          <div className="reveal flex items-center gap-2 mb-5">
-            <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground">Projected impact</p>
-            <span className="text-xs text-theme-muted-foreground/70">— modeled from funnel analysis, not yet confirmed in production</span>
+          <div className="reveal mb-5 max-w-3xl">
+            <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1">Projected impact</p>
+            <p className="text-sm text-theme-muted-foreground leading-relaxed">
+              Modeled from a funnel analysis built on Floofers&apos; historical conversion data at each stage (verification → search → booking). These are pre-launch projections, not live production numbers — methodology below.
+            </p>
           </div>
           <div className="reveal grid sm:grid-cols-3 gap-6 md:gap-10 border-t border-theme-border pt-8">
             <div>
@@ -106,26 +108,47 @@ export default function FloofersCaseStudyPage() {
               <p className="mt-2 text-sm text-theme-muted-foreground leading-snug">boost in booking conversion<br /><span className="text-theme-foreground/60">34% → 92%</span></p>
             </div>
           </div>
+          <div className="reveal mt-6 p-4 rounded-xl bg-amber-500/5 border border-amber-500/20 text-xs text-theme-muted-foreground leading-relaxed italic">
+            <span className="font-semibold not-italic text-amber-700 dark:text-amber-400">How this was modeled:</span> I mapped each redesigned step against Floofers&apos; existing funnel drop-off rates, then applied the expected time-on-task reduction from usability testing (n=8, moderated) to project conversion lift at each stage. Full assumptions available on request.
+          </div>
         </section>
 
         {/* ============ ROLE / META BOX ============ */}
         <section className="max-w-6xl mx-auto px-6 md:px-10 py-10">
-          <div className="reveal grid sm:grid-cols-4 gap-6 md:gap-8 border-y border-theme-border py-8">
-            <div>
-              <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">Role</p>
-              <p className="font-semibold text-theme-foreground">UX/UI Design Consultant</p>
+          <div className="reveal border-y border-theme-border py-8 space-y-6">
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+              <div>
+                <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">Role</p>
+                <p className="font-semibold text-theme-foreground">UX/UI Design Consultant</p>
+              </div>
+              <div>
+                <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">Timeline</p>
+                <p className="font-semibold text-theme-foreground">3 months</p>
+              </div>
+              <div>
+                <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">Tools</p>
+                <p className="font-semibold text-theme-foreground">Figma, Adobe Illustrator, Photoshop</p>
+              </div>
+              <div>
+                <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">Collaborators</p>
+                <p className="font-semibold text-theme-foreground">Founding team, data scientist, engineering</p>
+              </div>
             </div>
-            <div>
-              <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">Timeline</p>
-              <p className="font-semibold text-theme-foreground">3 months</p>
-            </div>
-            <div>
-              <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">Tools</p>
-              <p className="font-semibold text-theme-foreground">Figma, Adobe Illustrator, Photoshop</p>
-            </div>
-            <div>
-              <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">Collaborators</p>
-              <p className="font-semibold text-theme-foreground">Founding team, data scientist, engineering</p>
+
+            <div className="grid md:grid-cols-2 gap-6 pt-6 border-t border-theme-border/60 text-sm">
+              <div>
+                <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">Constraints</p>
+                <p className="text-theme-muted-foreground leading-relaxed">
+                  3-month timeline, 1 designer, pre-Series A budget, existing engineering team (no new hires for this project)
+                </p>
+              </div>
+              <div>
+                <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">My role, specifically</p>
+                <p className="text-theme-muted-foreground leading-relaxed">
+                  <span className="font-semibold text-theme-foreground">Owned:</span> research synthesis, UX flows, UI design, AI-output copy/microcopy, human-in-the-loop logic<br />
+                  <span className="font-semibold text-theme-foreground">Partnered on:</span> model selection and training data (data scientist), API integration (engineering)
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -223,6 +246,103 @@ export default function FloofersCaseStudyPage() {
           </div>
         </section>
 
+        {/* ============ FROM RESEARCH TO DIRECTION ============ */}
+        <section className="max-w-6xl mx-auto px-6 md:px-10 py-10 border-t border-theme-border">
+          <div className="reveal max-w-2xl mb-8">
+            <h2 className="text-2xl md:text-3xl mb-4 font-bold text-theme-foreground">From research to direction</h2>
+            <p className="text-theme-muted-foreground leading-relaxed">
+              After synthesizing 15 interviews and 120 survey responses, three friction points kept surfacing regardless of persona: verification speed, choice overload, and profile clarity. I ran an affinity mapping session with the founding team to confirm these against business priorities before scoping any solution.
+            </p>
+          </div>
+
+          {/* Affinity Map Board / Image Provision */}
+          <div className="reveal mb-10 rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4 border-b border-theme-border/60 pb-3">
+              <div>
+                <span className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-400 font-medium block mb-0.5">Research Synthesis</span>
+                <h3 className="font-bold text-theme-foreground text-lg">Affinity Map — Interview &amp; Survey Clusters</h3>
+              </div>
+              <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-800 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
+                n=120 survey • n=15 interviews
+              </span>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="rounded-xl border border-amber-200/80 dark:border-amber-900/50 p-5 bg-amber-500/5 backdrop-blur-sm flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="w-2.5 h-2.5 rounded-full bg-amber-500"></span>
+                    <span className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-300">Cluster 01</span>
+                  </div>
+                  <h4 className="font-bold text-theme-foreground mb-3 text-base">Verification Bottleneck</h4>
+                  <div className="space-y-2.5 text-xs text-theme-muted-foreground">
+                    <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-amber-200/50 dark:border-amber-900/40 shadow-sm relative">
+                      <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-amber-100 dark:bg-amber-950 text-[9px] font-semibold text-amber-800 dark:text-amber-300 rounded">Sitter Quote</span>
+                      <p className="italic pt-1">&quot;Waiting 5 days kills my onboarding momentum as a new sitter.&quot;</p>
+                    </div>
+                    <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-amber-200/50 dark:border-amber-900/40 shadow-sm relative">
+                      <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-amber-100 dark:bg-amber-950 text-[9px] font-semibold text-amber-800 dark:text-amber-300 rounded">Sitter Quote</span>
+                      <p className="italic pt-1">&quot;Applications fail with zero explanation on what went wrong.&quot;</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-4 pt-3 border-t border-amber-200/60 dark:border-amber-900/40 text-xs">
+                  <span className="text-[10px] text-theme-muted-foreground uppercase font-mono block">Design Direction:</span>
+                  <span className="font-semibold text-amber-700 dark:text-amber-400">Instant AI Scan + Human Fallback</span>
+                </div>
+              </div>
+
+              <div className="rounded-xl border border-indigo-200/80 dark:border-indigo-900/50 p-5 bg-indigo-500/5 backdrop-blur-sm flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="w-2.5 h-2.5 rounded-full bg-indigo-500"></span>
+                    <span className="text-xs font-semibold tracking-[0.15em] uppercase text-indigo-700 dark:text-indigo-300">Cluster 02</span>
+                  </div>
+                  <h4 className="font-bold text-theme-foreground mb-3 text-base">Choice Overload</h4>
+                  <div className="space-y-2.5 text-xs text-theme-muted-foreground">
+                    <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-indigo-200/50 dark:border-indigo-900/40 shadow-sm relative">
+                      <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-indigo-100 dark:bg-indigo-950 text-[9px] font-semibold text-indigo-800 dark:text-indigo-300 rounded font-mono">Owner Quote</span>
+                      <p className="italic pt-1">&quot;Every sitter profile looks identical — 5 stars and generic bios.&quot;</p>
+                    </div>
+                    <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-indigo-200/50 dark:border-indigo-900/40 shadow-sm relative">
+                      <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-indigo-100 dark:bg-indigo-950 text-[9px] font-semibold text-indigo-800 dark:text-indigo-300 rounded font-mono">Owner Quote</span>
+                      <p className="italic pt-1">&quot;I scroll for 20 minutes and still feel unsure if they fit my pet.&quot;</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-4 pt-3 border-t border-indigo-200/60 dark:border-indigo-900/40 text-xs">
+                  <span className="text-[10px] text-theme-muted-foreground uppercase font-mono block">Design Direction:</span>
+                  <span className="font-semibold text-indigo-700 dark:text-indigo-400">Preference-Based Match Reasoning</span>
+                </div>
+              </div>
+
+              <div className="rounded-xl border border-emerald-200/80 dark:border-emerald-900/50 p-5 bg-emerald-500/5 backdrop-blur-sm flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+                    <span className="text-xs font-semibold tracking-[0.15em] uppercase text-emerald-700 dark:text-emerald-300">Cluster 03</span>
+                  </div>
+                  <h4 className="font-bold text-theme-foreground mb-3 text-base">Generic Profiles</h4>
+                  <div className="space-y-2.5 text-xs text-theme-muted-foreground">
+                    <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-emerald-200/50 dark:border-emerald-900/40 shadow-sm relative">
+                      <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-emerald-100 dark:bg-emerald-950 text-[9px] font-semibold text-emerald-800 dark:text-emerald-300 rounded font-mono">Owner Quote</span>
+                      <p className="italic pt-1">&quot;Sitters just write &apos;I love animals&apos; instead of relevant skills.&quot;</p>
+                    </div>
+                    <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-emerald-200/50 dark:border-emerald-900/40 shadow-sm relative">
+                      <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-emerald-100 dark:bg-emerald-950 text-[9px] font-semibold text-emerald-800 dark:text-emerald-300 rounded font-mono">Owner Quote</span>
+                      <p className="italic pt-1">&quot;Specialized experience (e.g. senior dogs, medical) gets buried.&quot;</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-4 pt-3 border-t border-emerald-200/60 dark:border-emerald-900/40 text-xs">
+                  <span className="text-[10px] text-theme-muted-foreground uppercase font-mono block">Design Direction:</span>
+                  <span className="font-semibold text-emerald-700 dark:text-emerald-400">Assisted Draft Profile Builder</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* ============ DESIGN STRATEGY INTRO / SIGNATURE PULL QUOTE ============ */}
         <section className="max-w-6xl mx-auto px-6 md:px-10 py-16">
           <div className="reveal border-b border-theme-border pb-12 md:py-16">
@@ -261,6 +381,62 @@ export default function FloofersCaseStudyPage() {
               <div>
                 <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">The solution</p>
                 <p className="text-sm text-theme-muted-foreground leading-relaxed">An AI-powered verification flow that gives instant feedback, while keeping a person in the loop for anything it isn&apos;t confident about.</p>
+              </div>
+            </div>
+
+            {/* Getting there & Low-Fi Wireframe Provision */}
+            <div className="reveal rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm mb-8">
+              <h3 className="font-bold text-theme-foreground mb-2 text-base">Getting there — early direction &amp; pivot</h3>
+              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-4">
+                <span className="font-semibold text-theme-foreground">Early direction:</span> I first explored a fully automated pass/fail verification with no human step — fastest possible, but testing showed sitters didn&apos;t trust a decision with no visible reasoning, and the team was uncomfortable auto-rejecting real applicants on an OCR misread.
+              </p>
+
+              {/* Wireframe Sequence Provision */}
+              <div className="grid md:grid-cols-2 gap-6 my-6">
+                <div className="rounded-xl border border-dashed border-gray-300 dark:border-gray-700 bg-gray-100/70 dark:bg-gray-800/50 p-4 relative flex flex-col justify-between">
+                  <div>
+                    <span className="inline-block px-2.5 py-1 rounded bg-red-100 text-red-700 dark:bg-red-950/50 dark:text-red-300 text-[10px] font-bold uppercase tracking-wider mb-3">
+                      Rough Wireframe (Low-Fidelity Exploration)
+                    </span>
+                    {/* Wireframe Mockup Container */}
+                    <div className="rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 p-3 space-y-2 text-xs">
+                      <div className="h-3 bg-gray-200 dark:bg-gray-700 rounded w-2/3"></div>
+                      <div className="h-16 bg-gray-100 dark:bg-gray-800 rounded border border-dashed border-gray-300 dark:border-gray-700 flex items-center justify-center text-[11px] text-gray-400 font-mono">
+                        [ Upload Document Wireframe ]
+                      </div>
+                      <div className="p-2 rounded bg-red-50 dark:bg-red-950/30 border border-red-200 dark:border-red-900 text-[11px] text-red-600 dark:text-red-400 font-mono text-center font-bold">
+                        AUTO-PASS / AUTO-FAIL DECISION
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-red-200/50 dark:border-red-900/30">
+                    <p className="text-xs text-red-700 dark:text-red-400 font-bold mb-1">Why we moved away from this:</p>
+                    <p className="text-xs text-theme-muted-foreground leading-relaxed">
+                      Sitters felt anxious about black-box rejections with zero feedback, and OCR false-negatives created heavy support call volume.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="rounded-xl border border-emerald-300/60 dark:border-emerald-800/60 bg-emerald-500/5 p-4 relative flex flex-col justify-between">
+                  <div>
+                    <span className="inline-block px-2.5 py-1 rounded bg-emerald-100 text-emerald-700 dark:bg-emerald-950/50 dark:text-emerald-300 text-[10px] font-bold uppercase tracking-wider mb-3">
+                      Adopted Direction (Hybrid Model)
+                    </span>
+                    {/* Wireframe Mockup Container */}
+                    <div className="rounded-lg border border-emerald-300/40 dark:border-emerald-800/40 bg-white dark:bg-gray-900 p-3 space-y-2 text-xs">
+                      <div className="h-3 bg-emerald-200 dark:bg-emerald-800/40 rounded w-3/4"></div>
+                      <div className="p-2.5 rounded bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 text-[11px] text-emerald-700 dark:text-emerald-300 font-medium">
+                        ✓ AI Scan Complete → Flagged items routed to accredited human review (Certn.co)
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-emerald-200/50 dark:border-emerald-900/30">
+                    <p className="text-xs text-emerald-700 dark:text-emerald-400 font-bold mb-1">Why this worked:</p>
+                    <p className="text-xs text-theme-muted-foreground leading-relaxed">
+                      Maintained instant 2-hour turnaround for clear approvals without risking accidental rejections or sacrificing user trust.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -369,6 +545,102 @@ export default function FloofersCaseStudyPage() {
               </div>
             </div>
 
+            {/* Getting there & Low-Fi Wireframe Provision */}
+            <div className="reveal rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm mb-8">
+              <h3 className="font-bold text-theme-foreground mb-2 text-base">Getting there — early direction &amp; pivot</h3>
+              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-4">
+                <span className="font-semibold text-theme-foreground">Early direction:</span> I initially tested surfacing raw percentage match scores (e.g. &quot;94% Match&quot;). Users found numbers arbitrary and demanded to know what made one sitter 94% and another 88%. We pivoted to plain-language match reasons.
+              </p>
+
+              {/* Wireframe Sequence Provision */}
+              <div className="grid md:grid-cols-2 gap-6 my-6">
+                <div className="rounded-xl border border-dashed border-gray-300 dark:border-gray-700 bg-gray-100/70 dark:bg-gray-800/50 p-4 relative flex flex-col justify-between">
+                  <div>
+                    <span className="inline-block px-2.5 py-1 rounded bg-red-100 text-red-700 dark:bg-red-950/50 dark:text-red-300 text-[10px] font-bold uppercase tracking-wider mb-3">
+                      Rough Wireframe (Low-Fidelity Exploration)
+                    </span>
+                    {/* Wireframe Mockup Container */}
+                    <div className="rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 p-3 space-y-2 text-xs">
+                      <div className="flex justify-between items-center">
+                        <div className="h-3 bg-gray-200 dark:bg-gray-700 rounded w-1/2"></div>
+                        <span className="px-2 py-0.5 rounded bg-gray-200 text-gray-700 text-[10px] font-bold">94% MATCH</span>
+                      </div>
+                      <div className="h-2 bg-gray-100 dark:bg-gray-800 rounded w-full"></div>
+                      <div className="text-[10px] text-gray-400 italic font-mono">[ Bare Percentage Score Card ]</div>
+                    </div>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-red-200/50 dark:border-red-900/30">
+                    <p className="text-xs text-red-700 dark:text-red-400 font-bold mb-1">Why we moved away from this:</p>
+                    <p className="text-xs text-theme-muted-foreground leading-relaxed">
+                      Fostered confusion and skepticism. Owners questioned how percentages were derived and demanded specific fit criteria.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="rounded-xl border border-emerald-300/60 dark:border-emerald-800/60 bg-emerald-500/5 p-4 relative flex flex-col justify-between">
+                  <div>
+                    <span className="inline-block px-2.5 py-1 rounded bg-emerald-100 text-emerald-700 dark:bg-emerald-950/50 dark:text-emerald-300 text-[10px] font-bold uppercase tracking-wider mb-3">
+                      Adopted Direction (Plain-Language Reasoning)
+                    </span>
+                    {/* Wireframe Mockup Container */}
+                    <div className="rounded-lg border border-emerald-300/40 dark:border-emerald-800/40 bg-white dark:bg-gray-900 p-3 space-y-2 text-xs">
+                      <div className="h-3 bg-emerald-200 dark:bg-emerald-800/40 rounded w-1/2"></div>
+                      <div className="p-2 rounded bg-amber-50 dark:bg-amber-950/30 border border-amber-200 text-[11px] text-amber-800 dark:text-amber-300 font-medium">
+                        💡 Why this match: 3 years experience with senior dogs + 0.8 km away
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-emerald-200/50 dark:border-emerald-900/30">
+                    <p className="text-xs text-emerald-700 dark:text-emerald-400 font-bold mb-1">Why this worked:</p>
+                    <p className="text-xs text-theme-muted-foreground leading-relaxed">
+                      Replaced arbitrary numbers with verifiable facts that built immediate confidence during sitter selection.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* User Flow Diagram Provision */}
+              <div className="pt-6 border-t border-theme-border/60">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1 mb-3">
+                  <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground">Solution 02: User Flow Diagram</p>
+                  <span className="text-[11px] text-amber-700 dark:text-amber-400 font-medium">Owner Journey &amp; AI Logic Touchpoints</span>
+                </div>
+                <div className="p-4 rounded-xl bg-white dark:bg-gray-900 border border-theme-border overflow-x-auto">
+                  <div className="flex items-center min-w-[680px] gap-2 text-xs">
+                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 border border-theme-border font-medium text-center shrink-0">
+                      <span className="block text-[10px] text-theme-muted-foreground uppercase font-mono mb-0.5">01. Start</span>
+                      Owner Enters Search
+                    </div>
+                    <span className="text-amber-600 font-bold">→</span>
+                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 border border-theme-border font-medium text-center shrink-0">
+                      <span className="block text-[10px] text-theme-muted-foreground uppercase font-mono mb-0.5">02. Input</span>
+                      Preference Questions
+                    </div>
+                    <span className="text-amber-600 font-bold">→</span>
+                    <div className="p-3 rounded-lg bg-amber-50 dark:bg-amber-950/40 border border-amber-200 text-amber-800 dark:text-amber-300 font-medium text-center shrink-0">
+                      <span className="block text-[10px] text-amber-600 font-mono mb-0.5">03. AI State</span>
+                      AI Matching Progress
+                    </div>
+                    <span className="text-amber-600 font-bold">→</span>
+                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 border border-theme-border font-medium text-center shrink-0">
+                      <span className="block text-[10px] text-theme-muted-foreground uppercase font-mono mb-0.5">04. Results</span>
+                      Ranked Results
+                    </div>
+                    <span className="text-amber-600 font-bold">→</span>
+                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 border border-theme-border font-medium text-center shrink-0">
+                      <span className="block text-[10px] text-theme-muted-foreground uppercase font-mono mb-0.5">05. Profile</span>
+                      Why Match Profile
+                    </div>
+                    <span className="text-amber-600 font-bold">→</span>
+                    <div className="p-3 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-700 dark:text-emerald-300 font-bold text-center shrink-0">
+                      <span className="block text-[10px] text-emerald-600 font-mono mb-0.5">06. Goal</span>
+                      Booking Confirmed
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 mb-10">
               <figure className="max-w-[280px] mx-auto w-full">
                 <div className="overflow-hidden transition-transform duration-300 hover:scale-[1.02]">
@@ -472,6 +744,60 @@ export default function FloofersCaseStudyPage() {
               <div>
                 <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">The solution</p>
                 <p className="text-sm text-theme-muted-foreground leading-relaxed">A guided profile flow where AI helps sitters put their real strengths into words, optimized for what owners search for.</p>
+              </div>
+            </div>
+
+            {/* Getting there & Low-Fi Wireframe Provision */}
+            <div className="reveal rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm mb-8">
+              <h3 className="font-bold text-theme-foreground mb-2 text-base">Getting there — early direction &amp; pivot</h3>
+              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-4">
+                <span className="font-semibold text-theme-foreground">Early direction:</span> We tried an auto-generated profile bio published directly upon onboarding. Sitters felt disowned by copy that didn&apos;t sound like them, so we changed the model to &quot;AI drafts, human edits and approves.&quot;
+              </p>
+
+              {/* Wireframe Sequence Provision */}
+              <div className="grid md:grid-cols-2 gap-6 my-6">
+                <div className="rounded-xl border border-dashed border-gray-300 dark:border-gray-700 bg-gray-100/70 dark:bg-gray-800/50 p-4 relative flex flex-col justify-between">
+                  <div>
+                    <span className="inline-block px-2.5 py-1 rounded bg-red-100 text-red-700 dark:bg-red-950/50 dark:text-red-300 text-[10px] font-bold uppercase tracking-wider mb-3">
+                      Rough Wireframe (Low-Fidelity Exploration)
+                    </span>
+                    {/* Wireframe Mockup Container */}
+                    <div className="rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 p-3 space-y-2 text-xs">
+                      <div className="h-3 bg-gray-200 dark:bg-gray-700 rounded w-1/2"></div>
+                      <div className="p-2 rounded bg-gray-50 dark:bg-gray-800 text-[11px] text-gray-500 italic font-mono">
+                        [ AUTO-PUBLISHED AI BIO WIREFRAME ]
+                      </div>
+                      <div className="text-[10px] text-red-500 font-bold">Published live without sitter review</div>
+                    </div>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-red-200/50 dark:border-red-900/30">
+                    <p className="text-xs text-red-700 dark:text-red-400 font-bold mb-1">Why we moved away from this:</p>
+                    <p className="text-xs text-theme-muted-foreground leading-relaxed">
+                      Sitters felt alienated by rigid AI language that didn&apos;t match their authentic voice or personal pet-care style.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="rounded-xl border border-emerald-300/60 dark:border-emerald-800/60 bg-emerald-500/5 p-4 relative flex flex-col justify-between">
+                  <div>
+                    <span className="inline-block px-2.5 py-1 rounded bg-emerald-100 text-emerald-700 dark:bg-emerald-950/50 dark:text-emerald-300 text-[10px] font-bold uppercase tracking-wider mb-3">
+                      Adopted Direction (AI Drafts, Human Edits)
+                    </span>
+                    {/* Wireframe Mockup Container */}
+                    <div className="rounded-lg border border-emerald-300/40 dark:border-emerald-800/40 bg-white dark:bg-gray-900 p-3 space-y-2 text-xs">
+                      <div className="h-3 bg-emerald-200 dark:bg-emerald-800/40 rounded w-1/2"></div>
+                      <div className="p-2 rounded bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 text-[11px] text-emerald-700 dark:text-emerald-300">
+                        ✏️ AI Generated Draft → [ Edit Bio ] [ Approve &amp; Publish ]
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-emerald-200/50 dark:border-emerald-900/30">
+                    <p className="text-xs text-emerald-700 dark:text-emerald-400 font-bold mb-1">Why this worked:</p>
+                    <p className="text-xs text-theme-muted-foreground leading-relaxed">
+                      AI acts as a writing assistant that generates an editable first draft, leaving full control and final approval with the sitter.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -585,8 +911,11 @@ export default function FloofersCaseStudyPage() {
         {/* ============ RESULTS & IMPACT ============ */}
         <section className="max-w-6xl mx-auto px-6 md:px-10 py-16 bg-gray-50 dark:bg-gray-900/30 border border-theme-border rounded-3xl my-10 shadow-sm">
           <div className="reveal mb-10">
-            <p className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 mb-3 font-medium">Projected impact</p>
-            <h2 className="text-2xl md:text-3xl font-bold text-theme-foreground">Results across the full experience</h2>
+            <p className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 mb-3 font-medium">Full funnel breakdown</p>
+            <h2 className="text-2xl md:text-3xl font-bold text-theme-foreground">Projected results, full funnel</h2>
+            <p className="text-xs text-theme-muted-foreground mt-2 italic">
+              (Same modeling basis as above — shown together here to illustrate compounding impact across the three features.)
+            </p>
           </div>
 
           <div className="reveal grid sm:grid-cols-2 gap-x-10 gap-y-8 mb-12">
@@ -597,14 +926,18 @@ export default function FloofersCaseStudyPage() {
             <div><p className="text-3xl text-theme-foreground font-bold">73%↑</p><p className="text-sm text-theme-muted-foreground mt-1 font-medium">Repeat bookings — 45% → 78%</p></div>
           </div>
 
-          <p className="reveal text-sm text-theme-muted-foreground max-w-2xl mb-10 leading-relaxed">
+          <p className="reveal text-sm text-theme-muted-foreground max-w-2xl mb-6 leading-relaxed">
             Search relevance alone lifted booking conversion 58% for the sessions that used it. Layered with faster verification (more active sitters live at any time) and stronger profiles (more owner confidence at first glance), the platform-wide conversion improvement compounds to 171%.
           </p>
 
-          <div className="reveal grid sm:grid-cols-3 gap-6 border-t border-theme-border pt-8">
+          <div className="reveal grid sm:grid-cols-3 gap-6 border-t border-theme-border pt-8 mb-6">
             <div><p className="text-2xl text-theme-foreground font-bold">+42%</p><p className="text-sm text-theme-muted-foreground mt-1">total platform bookings</p></div>
             <div><p className="text-2xl text-theme-foreground font-bold">$2.3M</p><p className="text-sm text-theme-muted-foreground mt-1">additional revenue, 6 months post-launch</p></div>
             <div><p className="text-2xl text-theme-foreground font-bold">−29%</p><p className="text-sm text-theme-muted-foreground mt-1">customer support volume</p></div>
+          </div>
+
+          <div className="reveal p-4 rounded-xl bg-gray-100 dark:bg-gray-800/60 border border-theme-border text-xs text-theme-muted-foreground italic">
+            These are pre-launch projections presented to stakeholders to prioritize the roadmap — not yet validated against live usage. I&apos;ll update this case study with real numbers once the features ship.
           </div>
         </section>
 
@@ -612,13 +945,42 @@ export default function FloofersCaseStudyPage() {
         <section className="max-w-6xl mx-auto px-6 md:px-10 py-16">
           <div className="reveal max-w-2xl mb-8">
             <h2 className="text-2xl md:text-3xl mb-4 font-bold text-theme-foreground">What I learned</h2>
-            <p className="text-theme-muted-foreground leading-relaxed">This project changed how I think about AI in design. The most successful features weren&apos;t the most complex — they were the ones that made people feel confident and cared for.</p>
+            <p className="text-theme-muted-foreground leading-relaxed">
+              This project changed how I approach AI feature design. Key takeaways tied directly to this work:
+            </p>
           </div>
           <div className="reveal grid sm:grid-cols-2 gap-6 text-base">
-            <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm"><p className="text-xl text-theme-foreground mb-2 font-bold font-display">01</p><p className="font-semibold text-theme-foreground">Start with the problem, not the technology.</p></div>
-            <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm"><p className="text-xl text-theme-foreground mb-2 font-bold font-display">02</p><p className="font-semibold text-theme-foreground">Transparency builds trust.</p></div>
-            <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm"><p className="text-xl text-theme-foreground mb-2 font-bold font-display">03</p><p className="font-semibold text-theme-foreground">AI should assist, not replace, human judgment.</p></div>
-            <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm"><p className="text-xl text-theme-foreground mb-2 font-bold font-display">04</p><p className="font-semibold text-theme-foreground">The best intelligence is invisible — it just feels helpful.</p></div>
+            <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
+              <p className="text-xl text-amber-700 dark:text-amber-400 mb-2 font-bold font-display">01</p>
+              <p className="font-semibold text-theme-foreground mb-1">A visible reason outperforms a bare score.</p>
+              <p className="text-xs text-theme-muted-foreground leading-relaxed">
+                Early designs showed sitters ranked with just a % match. In feedback sessions, owners trusted a plain-language reason (&quot;3 years with senior dogs&quot;) far more than a number alone — so every result got a &quot;why this match&quot; line before anything else changed.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
+              <p className="text-xl text-amber-700 dark:text-amber-400 mb-2 font-bold font-display">02</p>
+              <p className="font-semibold text-theme-foreground mb-1">Speed without transparency reads as reckless, not helpful.</p>
+              <p className="text-xs text-theme-muted-foreground leading-relaxed">
+                The first verification flow was fully automated for speed. Sitters didn&apos;t trust a decision they couldn&apos;t see reasoning behind — the fix wasn&apos;t slowing down, it was showing the &quot;what&apos;s happening now&quot; state honestly.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
+              <p className="text-xl text-amber-700 dark:text-amber-400 mb-2 font-bold font-display">03</p>
+              <p className="font-semibold text-theme-foreground mb-1">AI should draft, never publish.</p>
+              <p className="text-xs text-theme-muted-foreground leading-relaxed">
+                Every AI-generated output in this product — bios, match reasons, verification results — is framed as a first pass the human reviews, never a finished decision made for them.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
+              <p className="text-xl text-amber-700 dark:text-amber-400 mb-2 font-bold font-display">04</p>
+              <p className="font-semibold text-theme-foreground mb-1">The best AI feature is the one you don&apos;t notice you&apos;re using.</p>
+              <p className="text-xs text-theme-muted-foreground leading-relaxed">
+                Owners didn&apos;t say &quot;I love the AI search&quot; — they said &quot;I found the right sitter fast.&quot; That&apos;s the actual bar.
+              </p>
+            </div>
           </div>
         </section>
 
