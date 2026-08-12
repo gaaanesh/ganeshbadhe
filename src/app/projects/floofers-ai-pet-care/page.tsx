@@ -75,7 +75,7 @@ export default function FloofersCaseStudyPage() {
               Floofers: transforming <span className="text-theme-secondary-foreground italic font-normal">pet care</span> with AI intelligence
             </h1>
             <p className="mt-6 text-lg md:text-xl text-theme-muted-foreground leading-relaxed max-w-2xl">
-              Making pet-sitting decisions 3x faster — and turning a slow, overwhelming booking process into one pet parents and sitters actually trust.
+              Making pet-sitting decisions 3× faster with targeted AI — not an AI product, but a product that uses AI where it matters.
             </p>
 
             <WatchCaseStudyLink
@@ -104,25 +104,25 @@ export default function FloofersCaseStudyPage() {
           <div className="reveal mb-5 max-w-4xl">
             <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1">Projected impact</p>
             <p className="text-sm text-theme-muted-foreground leading-relaxed">
-              Modeled from a funnel analysis built on Floofers&apos; historical conversion data at each stage (verification → search → booking). These are pre-launch projections, not live production numbers — methodology below.
+              Pre-launch projections modeled from Floofers&apos; historical funnel data (verification → search → booking).
             </p>
           </div>
           <div className="reveal grid sm:grid-cols-3 gap-6 md:gap-10 border-t border-theme-border pt-8">
             <div>
               <p className="text-3xl md:text-4xl text-theme-foreground font-bold">95%<span className="text-lg align-top text-amber-700">↓</span></p>
-              <p className="mt-2 text-sm text-theme-muted-foreground leading-snug">faster sitter verification<br /><span className="text-theme-foreground/60">3–5 days → 2 hours</span></p>
+              <p className="mt-2 text-sm text-theme-muted-foreground leading-snug">verification time<br /><span className="text-theme-foreground/60">3–5 days → 2 hours</span></p>
             </div>
             <div>
               <p className="text-3xl md:text-4xl text-theme-foreground font-bold">65%<span className="text-lg align-top text-amber-700">↓</span></p>
-              <p className="mt-2 text-sm text-theme-muted-foreground leading-snug">less time spent searching<br /><span className="text-theme-foreground/60">23 min → 8 min</span></p>
+              <p className="mt-2 text-sm text-theme-muted-foreground leading-snug">search duration<br /><span className="text-theme-foreground/60">23 min → 8 min</span></p>
             </div>
             <div>
               <p className="text-3xl md:text-4xl text-theme-foreground font-bold">171%<span className="text-lg align-top text-amber-700">↑</span></p>
-              <p className="mt-2 text-sm text-theme-muted-foreground leading-snug">boost in booking conversion<br /><span className="text-theme-foreground/60">34% → 92%</span></p>
+              <p className="mt-2 text-sm text-theme-muted-foreground leading-snug">booking conversion<br /><span className="text-theme-foreground/60">34% → 92%</span></p>
             </div>
           </div>
           <div className="reveal mt-6 p-4 rounded-xl bg-amber-500/5 border border-amber-500/20 text-xs text-theme-muted-foreground leading-relaxed italic">
-            <span className="font-semibold not-italic text-amber-700 dark:text-amber-400">How this was modeled:</span> I mapped each redesigned step against Floofers&apos; existing funnel drop-off rates, then applied the expected time-on-task reduction from usability testing (n=8, moderated) to project conversion lift at each stage. Full assumptions available on request.
+            <span className="font-semibold not-italic text-amber-700 dark:text-amber-400">Methodology:</span> Funnel drop-off rates × time-on-task reduction from usability testing (n=8, moderated). Full assumptions available on request.
           </div>
         </section>
 
@@ -152,13 +152,13 @@ export default function FloofersCaseStudyPage() {
               <div>
                 <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">Constraints</p>
                 <p className="text-theme-muted-foreground leading-relaxed">
-                  3-month timeline, 1 designer, existing engineering team (no new hires for this project)
+                  3-month timeline · 1 designer · existing engineering team
                 </p>
               </div>
               <div>
                 <p className="text-xs font-semibold tracking-[0.15em] uppercase text-theme-muted-foreground mb-1.5">My role, specifically</p>
                 <p className="text-theme-muted-foreground leading-relaxed">
-                  Research synthesis, UX flows, UI design, AI-output copy/microcopy, human-in-the-loop logic
+                  Research synthesis · UX flows · UI design · AI microcopy · human-in-the-loop logic
                 </p>
               </div>
             </div>
@@ -170,7 +170,7 @@ export default function FloofersCaseStudyPage() {
           <div className="reveal max-w-2xl">
             <h2 className="text-2xl md:text-3xl mb-4 font-bold text-theme-foreground">Background</h2>
             <p className="text-theme-muted-foreground leading-relaxed">
-              Floofers connects pet parents with vetted sitters and dog walkers across Australia. The core experience worked — but three friction points were quietly costing the business growth and trust. I designed three targeted AI features to remove that friction, deliberately choosing not to turn the whole app into an &quot;AI product.&quot;
+              Floofers connects pet parents with vetted sitters across Australia. Three friction points were quietly costing growth and trust. I designed three targeted AI features to fix them.
             </p>
           </div>
         </section>
@@ -180,7 +180,7 @@ export default function FloofersCaseStudyPage() {
           <div className="reveal max-w-2xl mb-10">
             <h2 className="text-2xl md:text-3xl mb-4 font-bold text-theme-foreground">The problem</h2>
             <p className="text-theme-muted-foreground leading-relaxed">
-              Floofers successfully connected pet owners with sitters — but the experience was slow and overwhelming in three specific ways.
+              The experience was slow and overwhelming in three specific ways.
             </p>
           </div>
 
@@ -188,17 +188,17 @@ export default function FloofersCaseStudyPage() {
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-2xl text-theme-foreground mb-2 font-bold">01</p>
               <h3 className="font-bold text-theme-foreground mb-2">Slow verification</h3>
-              <p className="text-sm text-theme-muted-foreground leading-relaxed">Sitters waited 3–5 days for approval, capping how fast the platform could grow supply.</p>
+              <p className="text-sm text-theme-muted-foreground leading-relaxed">3–5 day approval delay capped platform supply growth.</p>
             </div>
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-2xl text-theme-foreground mb-2 font-bold">02</p>
               <h3 className="font-bold text-theme-foreground mb-2">Choice overload</h3>
-              <p className="text-sm text-theme-muted-foreground leading-relaxed">Owners spent 23 minutes browsing hundreds of near-identical profiles before booking.</p>
+              <p className="text-sm text-theme-muted-foreground leading-relaxed">23 min average scrolling near-identical profiles before booking.</p>
             </div>
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-2xl text-theme-foreground mb-2 font-bold">03</p>
               <h3 className="font-bold text-theme-foreground mb-2">Generic profiles</h3>
-              <p className="text-sm text-theme-muted-foreground leading-relaxed">New sitters didn&apos;t know what to highlight, so strong candidates struggled to get booked.</p>
+              <p className="text-sm text-theme-muted-foreground leading-relaxed">Strong candidates couldn&apos;t surface relevant experience — generic bios don&apos;t get booked.</p>
             </div>
           </div>
 
@@ -218,7 +218,7 @@ export default function FloofersCaseStudyPage() {
           <div className="reveal max-w-2xl mb-8">
             <h2 className="text-2xl md:text-3xl mb-4 font-bold text-theme-foreground">Research &amp; discovery</h2>
             <p className="text-theme-muted-foreground leading-relaxed">
-              I paired stakeholder workshops with the Floofers founding team and direct conversations with pet owners and sitters to separate business assumptions from what people actually needed. I conducted 8 in-depth user interviews and analyzed over 40 survey responses to define the core pet-parent personas and their search habits.
+              8 in-depth interviews + 40 survey responses. Stakeholder workshops to separate business assumptions from real user needs.
             </p>
           </div>
 
@@ -226,23 +226,20 @@ export default function FloofersCaseStudyPage() {
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-400 mb-3 font-medium">35% of owners</p>
               <h3 className="font-bold text-theme-foreground mb-2 text-lg">The Anxious First-Timer</h3>
-              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-3"><span className="font-semibold text-theme-foreground">Wants:</span> total peace of mind before leaving their pet with a stranger.</p>
-              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-3"><span className="font-semibold text-theme-foreground">Frustration:</span> can&apos;t tell if a sitter is trustworthy from a profile alone.</p>
+              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-3">Needs peace of mind — can&apos;t gauge trust from profiles alone.</p>
               <p className="text-sm italic text-theme-muted-foreground border-l-2 border-theme-border pl-3">&quot;I read every review twice and still felt nervous.&quot;</p>
             </div>
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-400 mb-3 font-medium">45% of owners</p>
               <h3 className="font-bold text-theme-foreground mb-2 text-lg">The Busy Professional</h3>
-              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-3"><span className="font-semibold text-theme-foreground">Wants:</span> reliable care booked in minutes, with a proven track record.</p>
-              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-3"><span className="font-semibold text-theme-foreground">Frustration:</span> too many similar-looking profiles to compare quickly.</p>
+              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-3">Needs reliable care booked fast — too many similar profiles to compare.</p>
               <p className="text-sm italic text-theme-muted-foreground border-l-2 border-theme-border pl-3">&quot;I don&apos;t have 20 minutes to compare sitters — I need the right one, fast.&quot;</p>
             </div>
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-400 mb-3 font-medium">20% of owners</p>
               <h3 className="font-bold text-theme-foreground mb-2 text-lg">The Special-Needs Pet Parent</h3>
-              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-3"><span className="font-semibold text-theme-foreground">Wants:</span> a sitter who understands their pet&apos;s medical or behavioral needs.</p>
-              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-3"><span className="font-semibold text-theme-foreground">Frustration:</span> generic profiles never surface relevant experience.</p>
-              <p className="text-sm italic text-theme-muted-foreground border-l-2 border-theme-border pl-3">&quot;Most sitters say they&apos;re &apos;good with animals.&apos; I need someone who&apos;s handled insulin shots.&quot;</p>
+              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-3">Needs specialized experience surfaced — generic bios bury it.</p>
+              <p className="text-sm italic text-theme-muted-foreground border-l-2 border-theme-border pl-3">&quot;I need someone who&apos;s handled insulin shots.&quot;</p>
             </div>
           </div>
 
@@ -263,7 +260,7 @@ export default function FloofersCaseStudyPage() {
           <div className="reveal max-w-2xl mb-8">
             <h2 className="text-2xl md:text-3xl mb-4 font-bold text-theme-foreground">From research to direction</h2>
             <p className="text-theme-muted-foreground leading-relaxed">
-              After synthesizing 8 interviews and 40 survey responses, three friction points kept surfacing regardless of persona: verification speed, choice overload and profile clarity. I ran an affinity mapping session with the founding team to confirm these against business priorities before scoping any solution.
+              Three friction points surfaced across every persona. Affinity mapping with the founding team confirmed alignment with business priorities.
             </p>
           </div>
 
@@ -291,7 +288,7 @@ export default function FloofersCaseStudyPage() {
                 <span className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-400 font-medium block mb-0.5">Research Synthesis</span>
                 <h3 className="font-bold text-theme-foreground text-lg">Affinity Map — Interview &amp; Survey Clusters</h3>
               </div>
-              <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-800 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
+              <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-900/30 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
                 n=40 survey • n=8 interviews
               </span>
             </div>
@@ -307,11 +304,11 @@ export default function FloofersCaseStudyPage() {
                   <div className="space-y-2.5 text-xs text-theme-muted-foreground">
                     <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-amber-200/50 dark:border-amber-900/40 shadow-sm relative">
                       <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-amber-100 dark:bg-amber-950 text-[9px] font-semibold text-amber-800 dark:text-amber-300 rounded">Sitter Quote</span>
-                      <p className="italic pt-1">&quot;Waiting 5 days kills my onboarding momentum as a new sitter.&quot;</p>
+                      <p className="italic pt-1 dark:text-gray-100">&quot;Waiting 5 days kills my onboarding momentum as a new sitter.&quot;</p>
                     </div>
                     <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-amber-200/50 dark:border-amber-900/40 shadow-sm relative">
                       <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-amber-100 dark:bg-amber-950 text-[9px] font-semibold text-amber-800 dark:text-amber-300 rounded">Sitter Quote</span>
-                      <p className="italic pt-1">&quot;Applications fail with zero explanation on what went wrong.&quot;</p>
+                      <p className="italic pt-1 dark:text-gray-100">&quot;Applications fail with zero explanation on what went wrong.&quot;</p>
                     </div>
                   </div>
                 </div>
@@ -331,11 +328,11 @@ export default function FloofersCaseStudyPage() {
                   <div className="space-y-2.5 text-xs text-theme-muted-foreground">
                     <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-indigo-200/50 dark:border-indigo-900/40 shadow-sm relative">
                       <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-indigo-100 dark:bg-indigo-950 text-[9px] font-semibold text-indigo-800 dark:text-indigo-300 rounded font-mono">Owner Quote</span>
-                      <p className="italic pt-1">&quot;Every sitter profile looks identical — 5 stars and generic bios.&quot;</p>
+                      <p className="italic pt-1 dark:text-gray-100">&quot;Every sitter profile looks identical — 5 stars and generic bios.&quot;</p>
                     </div>
                     <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-indigo-200/50 dark:border-indigo-900/40 shadow-sm relative">
                       <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-indigo-100 dark:bg-indigo-950 text-[9px] font-semibold text-indigo-800 dark:text-indigo-300 rounded font-mono">Owner Quote</span>
-                      <p className="italic pt-1">&quot;I scroll for 20 minutes and still feel unsure if they fit my pet.&quot;</p>
+                      <p className="italic pt-1 dark:text-gray-100">&quot;I scroll for 20 minutes and still feel unsure if they fit my pet.&quot;</p>
                     </div>
                   </div>
                 </div>
@@ -355,11 +352,11 @@ export default function FloofersCaseStudyPage() {
                   <div className="space-y-2.5 text-xs text-theme-muted-foreground">
                     <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-emerald-200/50 dark:border-emerald-900/40 shadow-sm relative">
                       <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-emerald-100 dark:bg-emerald-950 text-[9px] font-semibold text-emerald-800 dark:text-emerald-300 rounded font-mono">Owner Quote</span>
-                      <p className="italic pt-1">&quot;Sitters just write &apos;I love animals&apos; instead of relevant skills.&quot;</p>
+                      <p className="italic pt-1 dark:text-gray-100">&quot;Sitters just write &apos;I love animals&apos; instead of relevant skills.&quot;</p>
                     </div>
                     <div className="p-3 rounded-lg bg-white/90 dark:bg-gray-800/90 border border-emerald-200/50 dark:border-emerald-900/40 shadow-sm relative">
                       <span className="absolute -top-2 left-2 px-1.5 py-0.2 bg-emerald-100 dark:bg-emerald-950 text-[9px] font-semibold text-emerald-800 dark:text-emerald-300 rounded font-mono">Owner Quote</span>
-                      <p className="italic pt-1">&quot;Specialized experience (e.g. senior dogs, medical) gets buried.&quot;</p>
+                      <p className="italic pt-1 dark:text-gray-100">&quot;Specialized experience (e.g. senior dogs, medical) gets buried.&quot;</p>
                     </div>
                   </div>
                 </div>
@@ -404,12 +401,12 @@ export default function FloofersCaseStudyPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8 text-base">
               <div>
-                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">The problem, closer up</p>
-                <p className="text-sm text-theme-muted-foreground leading-relaxed">New sitters faced a frustrating cycle: upload documents, wait 3–5 days, often resubmit corrections, wait again. It bottlenecked platform growth and frustrated exactly the applicants Floofers most wanted to keep.</p>
+                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">Problem</p>
+                <p className="text-sm text-theme-muted-foreground leading-relaxed">Upload → wait 3–5 days → resubmit → wait again. Bottlenecked supply growth.</p>
               </div>
               <div>
-                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">The solution</p>
-                <p className="text-sm text-theme-muted-foreground leading-relaxed">An AI-powered verification flow that gives instant feedback, while keeping a person in the loop for anything it isn&apos;t confident about.</p>
+                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">Solution</p>
+                <p className="text-sm text-theme-muted-foreground leading-relaxed">AI-powered verification with instant feedback. Human review for edge cases only.</p>
               </div>
             </div>
 
@@ -420,13 +417,13 @@ export default function FloofersCaseStudyPage() {
                   <span className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-400 font-medium block mb-0.5">Iterative Design Process</span>
                   <h3 className="font-bold text-theme-foreground text-lg">Getting there — early direction &amp; wireframe explorations</h3>
                 </div>
-                <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-800 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
+                <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-900/30 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
                   Low-Fi Explorations → Hybrid Logic Pivot
                 </span>
               </div>
 
               <p className="text-sm text-theme-muted-foreground leading-relaxed mb-6">
-                <span className="font-semibold text-theme-foreground">Early direction &amp; key pivot:</span> I first explored a fully automated pass/fail verification with no human step to achieve the fastest possible turnaround. However, usability testing showed sitters didn&apos;t trust a decision with zero visible reasoning, and stakeholders were uncomfortable auto-rejecting real applicants due to OCR misreads. We pivoted to a hybrid model: instant AI scanning for clear approvals, with flagged cases routing seamlessly to human review.
+                <span className="font-semibold text-theme-foreground">Key pivot:</span> Fully automated pass/fail → sitters didn&apos;t trust black-box decisions. Pivoted to hybrid: AI scans clear cases, flags ambiguous ones for human review.
               </p>
 
               {/* Real Wireframe Image Board */}
@@ -449,77 +446,49 @@ export default function FloofersCaseStudyPage() {
               {/* Sr. Product Designer Rationale Card */}
               <div className="grid md:grid-cols-2 gap-4 text-xs">
                 <div className="p-4 rounded-xl border border-red-500/30 bg-red-500/5">
-                  <p className="font-semibold text-red-700 dark:text-red-400 mb-1">❌ Initial Exploration: 100% Automated Auto-Pass/Fail</p>
+                  <p className="font-semibold text-red-700 dark:text-red-400 mb-1">❌ Explored: 100% Automated Pass/Fail</p>
                   <p className="text-theme-muted-foreground leading-relaxed">
-                    Attempted a black-box decision screen with no explanation. Testing revealed sitters felt anxious when documents were flagged without guidance, and OCR misreads created customer support spikes.
+                    Black-box decisions caused sitter anxiety. OCR misreads spiked support tickets.
                   </p>
                 </div>
                 <div className="p-4 rounded-xl border border-emerald-500/30 bg-emerald-500/5">
-                  <p className="font-semibold text-emerald-700 dark:text-emerald-400 mb-1">✓ Adopted Pivot: Hybrid AI Scan + Accredited Human Review</p>
+                  <p className="font-semibold text-emerald-700 dark:text-emerald-400 mb-1">✓ Adopted: Hybrid AI Scan + Human Review</p>
                   <p className="text-theme-muted-foreground leading-relaxed">
-                    AI processes clean documents in under 2 hours with a transparent &quot;scanning progress&quot; state. Anything ambiguous routes to human review (Certn.co) without rejecting the applicant outright.
+                    Clean documents approved in under 2 hours. Ambiguous cases route to Certn.co human review.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Before & After Experience Comparison */}
-            <div className="reveal mb-10 rounded-2xl border border-theme-border p-6 md:p-8 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6 border-b border-theme-border/60 pb-3">
-                <div>
-                  <span className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-400 font-medium block mb-0.5">Experience Transformation</span>
-                  <h3 className="font-bold text-theme-foreground text-lg">Before &amp; After Experience</h3>
-                </div>
-                <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-800 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
-                  Legacy Process vs. Redesigned Flow
-                </span>
-              </div>
-
-              <div className="flex flex-col sm:flex-row items-stretch justify-center gap-6 max-w-2xl mx-auto">
-                <div className="w-full max-w-[290px] rounded-xl border border-red-200/60 dark:border-red-900/40 bg-red-500/5 p-4 flex flex-col justify-between mx-auto">
-                  <div>
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="px-2.5 py-1 rounded bg-red-100 dark:bg-red-950/60 text-red-700 dark:text-red-300 text-[10px] font-bold uppercase tracking-wider">
-                        BEFORE — LEGACY EXPERIENCE
-                      </span>
-                    </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
-                      <Image
-                        src={oldVerificationImg}
-                        alt="Legacy verification process"
-                        className="w-full h-auto object-cover"
-                      />
-                    </div>
+            {/* Before & After */}
+            <div className="reveal mb-10">
+              <div className="flex flex-col sm:flex-row items-start justify-center gap-8 max-w-2xl mx-auto">
+                <div className="w-full max-w-[250px] mx-auto">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-theme-muted-foreground mb-3">Before</p>
+                  <div className="overflow-hidden rounded-xl border border-theme-border bg-white dark:bg-gray-950">
+                    <Image
+                      src={oldVerificationImg}
+                      alt="Legacy verification process"
+                      className="w-full h-auto object-cover p-2"
+                    />
                   </div>
-                  <p className="text-xs text-theme-muted-foreground leading-relaxed pt-2 border-t border-red-200/40 dark:border-red-900/30">
-                    <span className="font-semibold text-red-700 dark:text-red-400 block mb-0.5">Friction points:</span>
-                    3–5 day manual review delay, opaque verification status, high application drop-off.
-                  </p>
+                  <p className="text-xs text-theme-muted-foreground mt-2">3–5 day manual review, opaque status</p>
                 </div>
 
-                <div className="w-full max-w-[290px] rounded-xl border border-emerald-200/60 dark:border-emerald-900/40 bg-emerald-500/5 p-4 flex flex-col justify-between mx-auto">
-                  <div>
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="px-2.5 py-1 rounded bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 text-[10px] font-bold uppercase tracking-wider">
-                        AFTER — REDESIGNED AI FLOW
-                      </span>
-                    </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
-                      <video
-                        src="/images/projects/floofers-media/solution-1-Quick-verification-pet-sitters.mp4"
-                        controls
-                        autoPlay
-                        muted
-                        loop
-                        playsInline
-                        className="w-full h-auto object-cover"
-                      />
-                    </div>
+                <div className="w-full max-w-[250px] mx-auto">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-theme-muted-foreground mb-3">After</p>
+                  <div className="overflow-hidden rounded-xl border border-theme-border bg-white dark:bg-gray-950">
+                    <video
+                      src="/images/projects/floofers-media/solution-1-Quick-verification-pet-sitters.mp4"
+                      controls
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      className="w-full h-auto object-cover"
+                    />
                   </div>
-                  <p className="text-xs text-theme-muted-foreground leading-relaxed pt-2 border-t border-emerald-200/40 dark:border-emerald-900/30">
-                    <span className="font-semibold text-emerald-700 dark:text-emerald-400 block mb-0.5">Key improvements:</span>
-                    Instant AI document scan, transparent progress feedback, 2-hour average approval.
-                  </p>
+                  <p className="text-xs text-theme-muted-foreground mt-2">AI scan + 2-hour approval</p>
                 </div>
               </div>
             </div>
@@ -549,7 +518,7 @@ export default function FloofersCaseStudyPage() {
                 </div>
                 <figcaption className="mt-3 text-sm">
                   <span className="font-semibold block text-theme-foreground">Guided upload</span>
-                  <span className="text-theme-muted-foreground">One clear document at a time, with instant format feedback so nothing gets rejected on a technicality.</span>
+                  <span className="text-theme-muted-foreground">One document at a time with instant format feedback.</span>
                 </figcaption>
               </figure>
               <figure className="max-w-[280px] mx-auto w-full">
@@ -562,7 +531,7 @@ export default function FloofersCaseStudyPage() {
                 </div>
                 <figcaption className="mt-3 text-sm">
                   <span className="font-semibold block text-theme-foreground">Visible progress</span>
-                  <span className="text-theme-muted-foreground">A short, honest &quot;what&apos;s happening now&quot; state — no spinner with no explanation.</span>
+                  <span className="text-theme-muted-foreground">Honest &quot;what&apos;s happening now&quot; state — no unexplained spinner.</span>
                 </figcaption>
               </figure>
               <figure className="max-w-[280px] mx-auto w-full">
@@ -575,7 +544,7 @@ export default function FloofersCaseStudyPage() {
                 </div>
                 <figcaption className="mt-3 text-sm">
                   <span className="font-semibold block text-theme-foreground">One clean result</span>
-                  <span className="text-theme-muted-foreground">A pass shows a single confirmation and one next step — the &quot;sent for manual review&quot; note only appears when something genuinely needs a second look.</span>
+                  <span className="text-theme-muted-foreground">Single confirmation + one next step.</span>
                 </figcaption>
               </figure>
               <figure className="max-w-[280px] mx-auto w-full">
@@ -588,26 +557,26 @@ export default function FloofersCaseStudyPage() {
                 </div>
                 <figcaption className="mt-3 text-sm">
                   <span className="font-semibold block text-theme-foreground">Manual review fallback</span>
-                  <span className="text-theme-muted-foreground">Clear error guidance &amp; secondary human review routing when verification requires human verification.</span>
+                  <span className="text-theme-muted-foreground">Clear guidance when human review is needed.</span>
                 </figcaption>
               </figure>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8 mb-10">
               <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
-                <h3 className="font-bold text-theme-foreground mb-3 text-lg">Visual feedback system</h3>
+                <h3 className="font-bold text-theme-foreground mb-3 text-lg">Visual feedback</h3>
                 <ul className="space-y-2 text-sm text-theme-muted-foreground">
-                  <li>— Clear state progression: uploading → scanning → result</li>
-                  <li>— Consistent naming throughout: &quot;ID Verification&quot; and &quot;Police Check&quot;</li>
-                  <li>— Specific error messages, one primary action at every step</li>
+                  <li>— Uploading → scanning → result state progression</li>
+                  <li>— Consistent naming: &quot;ID Verification&quot; / &quot;Police Check&quot;</li>
+                  <li>— Specific errors, one action per step</li>
                 </ul>
               </div>
               <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
                 <h3 className="font-bold text-theme-foreground mb-3 text-lg">Human + AI balance</h3>
                 <ul className="space-y-2 text-sm text-theme-muted-foreground">
-                  <li>— AI handles first-pass scanning and clear approvals</li>
-                  <li>— Background checks powered by Certn.co for accredited verification</li>
-                  <li>— A person reviews edge cases and anything flagged</li>
+                  <li>— AI handles clear approvals</li>
+                  <li>— Certn.co for accredited background checks</li>
+                  <li>— Human reviews edge cases</li>
                 </ul>
               </div>
             </div>
@@ -633,12 +602,12 @@ export default function FloofersCaseStudyPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8 text-base">
               <div>
-                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">The problem, closer up</p>
-                <p className="text-sm text-theme-muted-foreground leading-relaxed">Pet owners spent 23 minutes scrolling dozens of generic sitter profiles, with no way to tell who&apos;d actually suit their pet&apos;s personality, needs, or quirks.</p>
+                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">Problem</p>
+                <p className="text-sm text-theme-muted-foreground leading-relaxed">23 minutes scrolling generic profiles with no way to gauge fit.</p>
               </div>
               <div>
-                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">The solution</p>
-                <p className="text-sm text-theme-muted-foreground leading-relaxed">A search that learns from preferences and surfaces the best matches, each with a plain-language reason attached.</p>
+                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">Solution</p>
+                <p className="text-sm text-theme-muted-foreground leading-relaxed">Preference-based matching with plain-language reasons on every result.</p>
               </div>
             </div>
 
@@ -649,13 +618,13 @@ export default function FloofersCaseStudyPage() {
                   <span className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-400 font-medium block mb-0.5">Iterative Design Process</span>
                   <h3 className="font-bold text-theme-foreground text-lg">Getting there — early direction &amp; wireframe explorations</h3>
                 </div>
-                <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-800 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
+                <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-900/30 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
                   Low-Fi Explorations → Plain-Language Rationale
                 </span>
               </div>
 
               <p className="text-sm text-theme-muted-foreground leading-relaxed mb-6">
-                <span className="font-semibold text-theme-foreground">Early direction &amp; key pivot:</span> I initially tested surfacing raw percentage match scores (e.g. &quot;94% Match&quot;). In testing sessions, pet owners found numerical percentages arbitrary and repeatedly asked what specifically made one sitter 94% and another 88%. We pivoted to plain-language match explanations (e.g. &quot;3 years experience with senior dogs&quot;) placed directly on match cards.
+                <span className="font-semibold text-theme-foreground">Key pivot:</span> Raw percentage scores (&quot;94% Match&quot;) felt arbitrary in testing. Replaced with plain-language reasons (&quot;3 years with senior dogs&quot;) on every card.
               </p>
 
               {/* Real Wireframe Image Board */}
@@ -678,15 +647,15 @@ export default function FloofersCaseStudyPage() {
               {/* Sr. Product Designer Rationale Card */}
               <div className="grid md:grid-cols-2 gap-4 text-xs mb-6">
                 <div className="p-4 rounded-xl border border-red-500/30 bg-red-500/5">
-                  <p className="font-semibold text-red-700 dark:text-red-400 mb-1">❌ Initial Exploration: Raw Percentage Score (e.g. 94% Match)</p>
+                  <p className="font-semibold text-red-700 dark:text-red-400 mb-1">❌ Explored: Raw % Match Score</p>
                   <p className="text-theme-muted-foreground leading-relaxed">
-                    Surfacing raw percentages created skepticism. Owners questioned the underlying algorithm and didn&apos;t feel more confident making a booking decision.
+                    Bare percentages created skepticism — owners couldn&apos;t verify the number.
                   </p>
                 </div>
                 <div className="p-4 rounded-xl border border-emerald-500/30 bg-emerald-500/5">
-                  <p className="font-semibold text-emerald-700 dark:text-emerald-400 mb-1">✓ Adopted Pivot: Plain-Language Compatibility Reasons</p>
+                  <p className="font-semibold text-emerald-700 dark:text-emerald-400 mb-1">✓ Adopted: Plain-Language Reasons</p>
                   <p className="text-theme-muted-foreground leading-relaxed">
-                    Replaced bare numbers with concrete, human-readable fit factors (&quot;Experienced with anxious pets&quot;, &quot;Live within 1 km&quot;) that pet parents can immediately verify.
+                    &quot;Experienced with anxious pets&quot; / &quot;Live within 1 km&quot; — verifiable at a glance.
                   </p>
                 </div>
               </div>
@@ -699,12 +668,12 @@ export default function FloofersCaseStudyPage() {
                 </div>
                 <div className="p-4 rounded-xl bg-white dark:bg-gray-900 border border-theme-border overflow-x-auto">
                   <div className="flex items-center min-w-[680px] gap-2 text-xs">
-                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 border border-theme-border font-medium text-center shrink-0">
+                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 dark:text-gray-100 border border-theme-border font-medium text-center shrink-0">
                       <span className="block text-[10px] text-theme-muted-foreground uppercase font-mono mb-0.5">01. Start</span>
                       Owner Enters Search
                     </div>
                     <span className="text-amber-600 font-bold">→</span>
-                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 border border-theme-border font-medium text-center shrink-0">
+                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 dark:text-gray-100 border border-theme-border font-medium text-center shrink-0">
                       <span className="block text-[10px] text-theme-muted-foreground uppercase font-mono mb-0.5">02. Input</span>
                       Preference Questions
                     </div>
@@ -714,17 +683,17 @@ export default function FloofersCaseStudyPage() {
                       AI Matching Progress
                     </div>
                     <span className="text-amber-600 font-bold">→</span>
-                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 border border-theme-border font-medium text-center shrink-0">
+                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 dark:text-gray-100 border border-theme-border font-medium text-center shrink-0">
                       <span className="block text-[10px] text-theme-muted-foreground uppercase font-mono mb-0.5">04. Results</span>
                       Ranked Results
                     </div>
                     <span className="text-amber-600 font-bold">→</span>
-                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 border border-theme-border font-medium text-center shrink-0">
+                    <div className="p-3 rounded-lg bg-gray-100 dark:bg-gray-800 dark:text-gray-100 border border-theme-border font-medium text-center shrink-0">
                       <span className="block text-[10px] text-theme-muted-foreground uppercase font-mono mb-0.5">05. Profile</span>
                       Why Match Profile
                     </div>
                     <span className="text-amber-600 font-bold">→</span>
-                    <div className="p-3 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-700 dark:text-emerald-300 font-bold text-center shrink-0">
+                    <div className="p-3 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-700 dark:text-emerald-700 font-bold text-center shrink-0">
                       <span className="block text-[10px] text-emerald-600 font-mono mb-0.5">06. Goal</span>
                       Booking Confirmed
                     </div>
@@ -733,63 +702,35 @@ export default function FloofersCaseStudyPage() {
               </div>
             </div>
 
-            {/* Before & After Experience Comparison */}
-            <div className="reveal mb-10 rounded-2xl border border-theme-border p-6 md:p-8 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6 border-b border-theme-border/60 pb-3">
-                <div>
-                  <span className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-400 font-medium block mb-0.5">Experience Transformation</span>
-                  <h3 className="font-bold text-theme-foreground text-lg">Before &amp; After Experience</h3>
-                </div>
-                <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-800 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
-                  Legacy Process vs. Redesigned Flow
-                </span>
-              </div>
-
-              <div className="flex flex-col sm:flex-row items-stretch justify-center gap-6 max-w-2xl mx-auto">
-                <div className="w-full max-w-[290px] rounded-xl border border-red-200/60 dark:border-red-900/40 bg-red-500/5 p-4 flex flex-col justify-between mx-auto">
-                  <div>
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="px-2.5 py-1 rounded bg-red-100 dark:bg-red-950/60 text-red-700 dark:text-red-300 text-[10px] font-bold uppercase tracking-wider">
-                        BEFORE — LEGACY EXPERIENCE
-                      </span>
-                    </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
-                      <Image
-                        src={oldSearchResultImg}
-                        alt="Legacy search result screen"
-                        className="w-full h-auto object-cover"
-                      />
-                    </div>
+            {/* Before & After */}
+            <div className="reveal mb-10">
+              <div className="flex flex-col sm:flex-row items-start justify-center gap-8 max-w-2xl mx-auto">
+                <div className="w-full max-w-[250px] mx-auto">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-theme-muted-foreground mb-3">Before</p>
+                  <div className="overflow-hidden rounded-xl border border-theme-border bg-white dark:bg-gray-950">
+                    <Image
+                      src={oldSearchResultImg}
+                      alt="Legacy search result screen"
+                      className="w-full h-auto object-cover p-2"
+                    />
                   </div>
-                  <p className="text-xs text-theme-muted-foreground leading-relaxed pt-2 border-t border-red-200/40 dark:border-red-900/30">
-                    <span className="font-semibold text-red-700 dark:text-red-400 block mb-0.5">Friction points:</span>
-                    Generic sitter list with identical bios; owners spent 23 minutes comparing profiles with no fit clarity.
-                  </p>
+                  <p className="text-xs text-theme-muted-foreground mt-2">Generic list, 23 min decision time</p>
                 </div>
 
-                <div className="w-full max-w-[290px] rounded-xl border border-emerald-200/60 dark:border-emerald-900/40 bg-emerald-500/5 p-4 flex flex-col justify-between mx-auto">
-                  <div>
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="px-2.5 py-1 rounded bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 text-[10px] font-bold uppercase tracking-wider">
-                        AFTER — REDESIGNED AI FLOW
-                      </span>
-                    </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
-                      <video
-                        src="/images/projects/floofers-media/Solution-2-Smart-search-pet-owners.mp4"
-                        controls
-                        autoPlay
-                        muted
-                        loop
-                        playsInline
-                        className="w-full h-auto object-cover"
-                      />
-                    </div>
+                <div className="w-full max-w-[250px] mx-auto">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-theme-muted-foreground mb-3">After</p>
+                  <div className="overflow-hidden rounded-xl border border-theme-border bg-white dark:bg-gray-950">
+                    <video
+                      src="/images/projects/floofers-media/Solution-2-Smart-search-pet-owners.mp4"
+                      controls
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      className="w-full h-auto object-cover"
+                    />
                   </div>
-                  <p className="text-xs text-theme-muted-foreground leading-relaxed pt-2 border-t border-emerald-200/40 dark:border-emerald-900/30">
-                    <span className="font-semibold text-emerald-700 dark:text-emerald-400 block mb-0.5">Key improvements:</span>
-                    Smart preference matching, visible compatibility reasons, reduced search duration to 8 minutes.
-                  </p>
+                  <p className="text-xs text-theme-muted-foreground mt-2">Smart matching, 8 min to book</p>
                 </div>
               </div>
             </div>
@@ -805,7 +746,7 @@ export default function FloofersCaseStudyPage() {
                 </div>
                 <figcaption className="mt-3 text-sm">
                   <span className="font-semibold block text-theme-foreground">Preference input</span>
-                  <span className="text-theme-muted-foreground">A handful of questions, not a wall of filters — enough signal for the AI to work with.</span>
+                  <span className="text-theme-muted-foreground">A few targeted questions — not a filter wall.</span>
                 </figcaption>
               </figure>
               <figure className="max-w-[280px] mx-auto w-full">
@@ -818,7 +759,7 @@ export default function FloofersCaseStudyPage() {
                 </div>
                 <figcaption className="mt-3 text-sm">
                   <span className="font-semibold block text-theme-foreground">Matching in progress</span>
-                  <span className="text-theme-muted-foreground">A brief, specific line about what it&apos;s checking — e.g. experience with senior dogs — so the wait feels purposeful.</span>
+                  <span className="text-theme-muted-foreground">Shows what it&apos;s checking so the wait feels purposeful.</span>
                 </figcaption>
               </figure>
               <figure className="max-w-[280px] mx-auto w-full">
@@ -831,7 +772,7 @@ export default function FloofersCaseStudyPage() {
                 </div>
                 <figcaption className="mt-3 text-sm">
                   <span className="font-semibold block text-theme-foreground">AI ranking state</span>
-                  <span className="text-theme-muted-foreground">Real-time calculation showing AI scoring and matching sitters to unique pet requirements.</span>
+                  <span className="text-theme-muted-foreground">Real-time scoring against pet-specific requirements.</span>
                 </figcaption>
               </figure>
               <figure className="max-w-[280px] mx-auto w-full">
@@ -844,7 +785,7 @@ export default function FloofersCaseStudyPage() {
                 </div>
                 <figcaption className="mt-3 text-sm">
                   <span className="font-semibold block text-theme-foreground">Why this match works</span>
-                  <span className="text-theme-muted-foreground">Detailed match breakdown in profile view showing highlighted compatibility reasons.</span>
+                  <span className="text-theme-muted-foreground">Compatibility reasons highlighted in profile view.</span>
                 </figcaption>
               </figure>
             </div>
@@ -861,12 +802,12 @@ export default function FloofersCaseStudyPage() {
             </div>
 
             <div className="rounded-2xl border border-theme-border p-6 mb-10 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
-              <h3 className="font-bold text-theme-foreground mb-3">Design challenge: explaining an AI decision</h3>
-              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-4">People wanted to know <span className="italic">why</span> a sitter was recommended, not just that they were. The fix was a plain-language hierarchy on every result:</p>
+              <h3 className="font-bold text-theme-foreground mb-3">Explaining AI decisions</h3>
+              <p className="text-sm text-theme-muted-foreground leading-relaxed mb-4">Users needed to know <span className="italic">why</span>, not just who. Every result shows:</p>
               <ol className="space-y-2 text-sm text-theme-muted-foreground list-decimal list-inside">
-                <li>A primary reason (e.g. experience match)</li>
-                <li>Secondary factors (location, availability, ratings)</li>
-                <li>At least one alternative with a genuinely different strength — not just a reshuffled version of #1</li>
+                <li>Primary match reason</li>
+                <li>Secondary factors (location, availability)</li>
+                <li>One genuinely different alternative</li>
               </ol>
             </div>
 
@@ -891,12 +832,12 @@ export default function FloofersCaseStudyPage() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-8 text-base">
               <div>
-                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">The problem, closer up</p>
-                <p className="text-sm text-theme-muted-foreground leading-relaxed">New sitters didn&apos;t know which details owners actually cared about, so most profiles ended up generic — and generic profiles don&apos;t get booked.</p>
+                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">Problem</p>
+                <p className="text-sm text-theme-muted-foreground leading-relaxed">Sitters didn&apos;t know what to highlight — generic profiles don&apos;t get booked.</p>
               </div>
               <div>
-                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">The solution</p>
-                <p className="text-sm text-theme-muted-foreground leading-relaxed">A guided profile flow where AI helps sitters put their real strengths into words, optimized for what owners search for.</p>
+                <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">Solution</p>
+                <p className="text-sm text-theme-muted-foreground leading-relaxed">Guided profile flow with AI writing assistance, optimized for what owners search for.</p>
               </div>
             </div>
 
@@ -907,13 +848,13 @@ export default function FloofersCaseStudyPage() {
                   <span className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-400 font-medium block mb-0.5">Iterative Design Process</span>
                   <h3 className="font-bold text-theme-foreground text-lg">Getting there — early direction &amp; wireframe explorations</h3>
                 </div>
-                <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-800 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
+                <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-900/30 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
                   Low-Fi Explorations → Human-in-the-loop Model
                 </span>
               </div>
 
               <p className="text-sm text-theme-muted-foreground leading-relaxed mb-6">
-                <span className="font-semibold text-theme-foreground">Early direction &amp; key pivot:</span> We initially explored an auto-generated profile bio that was published directly upon sitter onboarding. Sitters felt alienated by rigid AI language that didn&apos;t sound like their authentic voice or pet-care philosophy. We changed the interaction model to &quot;AI drafts, human edits and approves,&quot; positioning AI as a helpful writing assistant rather than an autonomous decision maker.
+                <span className="font-semibold text-theme-foreground">Key pivot:</span> Auto-published bios felt generic and inauthentic. Switched to &quot;AI drafts, human edits and approves&quot; — writing assistant, not decision maker.
               </p>
 
               {/* Real Wireframe Image Board */}
@@ -936,83 +877,68 @@ export default function FloofersCaseStudyPage() {
               {/* Sr. Product Designer Rationale Card */}
               <div className="grid md:grid-cols-2 gap-4 text-xs">
                 <div className="p-4 rounded-xl border border-red-500/30 bg-red-500/5">
-                  <p className="font-semibold text-red-700 dark:text-red-400 mb-1">❌ Initial Exploration: Auto-Published Profile Bio</p>
+                  <p className="font-semibold text-red-700 dark:text-red-400 mb-1">❌ Explored: Auto-Published Bio</p>
                   <p className="text-theme-muted-foreground leading-relaxed">
-                    Auto-publishing AI bios directly to sitter profiles produced generic text that sitters disowned, leading to low engagement and manual profile rewrites.
+                    Generic AI text that sitters disowned. Low engagement, manual rewrites.
                   </p>
                 </div>
                 <div className="p-4 rounded-xl border border-emerald-500/30 bg-emerald-500/5">
-                  <p className="font-semibold text-emerald-700 dark:text-emerald-400 mb-1">✓ Adopted Pivot: AI Drafts, Human Edits &amp; Approves</p>
+                  <p className="font-semibold text-emerald-700 dark:text-emerald-400 mb-1">✓ Adopted: AI Drafts, Human Approves</p>
                   <p className="text-theme-muted-foreground leading-relaxed">
-                    AI prompts sitters with dynamic questions, extracts key experience points, and generates an editable first draft — keeping full ownership and final approval with the sitter.
+                    Dynamic questions → editable first draft. Sitter keeps full ownership.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Before & After Experience Comparison */}
-            <div className="reveal mb-10 rounded-2xl border border-theme-border p-6 md:p-8 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6 border-b border-theme-border/60 pb-3">
-                <div>
-                  <span className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-700 dark:text-amber-400 font-medium block mb-0.5">Experience Transformation</span>
-                  <h3 className="font-bold text-theme-foreground text-lg">Before &amp; After Experience</h3>
-                </div>
-                <span className="text-xs text-theme-muted-foreground font-mono bg-white dark:bg-gray-800 px-3 py-1 rounded-full border border-theme-border self-start sm:self-auto">
-                  Legacy Process vs. Redesigned Flow
-                </span>
-              </div>
-
-              <div className="flex flex-col sm:flex-row items-stretch justify-center gap-6 max-w-2xl mx-auto">
-                <div className="w-full max-w-[290px] rounded-xl border border-red-200/60 dark:border-red-900/40 bg-red-500/5 p-4 flex flex-col justify-between mx-auto">
-                  <div>
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="px-2.5 py-1 rounded bg-red-100 dark:bg-red-950/60 text-red-700 dark:text-red-300 text-[10px] font-bold uppercase tracking-wider">
-                        BEFORE — LEGACY EXPERIENCE
-                      </span>
-                    </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
-                      <Image
-                        src={oldProfileImg}
-                        alt="Legacy profile creation screen"
-                        className="w-full h-auto object-cover"
-                      />
-                    </div>
+            {/* Before & After */}
+            <div className="reveal mb-10">
+              <div className="flex flex-col sm:flex-row items-start justify-center gap-8 max-w-2xl mx-auto">
+                <div className="w-full max-w-[250px] mx-auto">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-theme-muted-foreground mb-3">Before</p>
+                  <div className="overflow-hidden rounded-xl border border-theme-border bg-white dark:bg-gray-950">
+                    <Image
+                      src={oldProfileImg}
+                      alt="Legacy profile creation screen"
+                      className="w-full h-auto object-cover p-2"
+                    />
                   </div>
-                  <p className="text-xs text-theme-muted-foreground leading-relaxed pt-2 border-t border-red-200/40 dark:border-red-900/30">
-                    <span className="font-semibold text-red-700 dark:text-red-400 block mb-0.5">Friction points:</span>
-                    Blank text boxes with zero writing assistance; sitters wrote uninformative generic bios.
-                  </p>
+                  <p className="text-xs text-theme-muted-foreground mt-2">Blank text fields, generic bios</p>
                 </div>
 
-                <div className="w-full max-w-[290px] rounded-xl border border-emerald-200/60 dark:border-emerald-900/40 bg-emerald-500/5 p-4 flex flex-col justify-between mx-auto">
-                  <div>
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="px-2.5 py-1 rounded bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 text-[10px] font-bold uppercase tracking-wider">
-                        AFTER — REDESIGNED AI FLOW
-                      </span>
-                    </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
-                      <video
-                        src="/images/projects/floofers-media/solution-3-AI-assisted-profile-builder-sitters.mp4"
-                        controls
-                        autoPlay
-                        muted
-                        loop
-                        playsInline
-                        className="w-full h-auto object-cover"
-                      />
-                    </div>
+                <div className="w-full max-w-[250px] mx-auto">
+                  <p className="text-xs font-semibold uppercase tracking-wider text-theme-muted-foreground mb-3">After</p>
+                  <div className="overflow-hidden rounded-xl border border-theme-border bg-white dark:bg-gray-950">
+                    <video
+                      src="/images/projects/floofers-media/solution-3-AI-assisted-profile-builder-sitters.mp4"
+                      controls
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      className="w-full h-auto object-cover"
+                    />
                   </div>
-                  <p className="text-xs text-theme-muted-foreground leading-relaxed pt-2 border-t border-emerald-200/40 dark:border-emerald-900/30">
-                    <span className="font-semibold text-emerald-700 dark:text-emerald-400 block mb-0.5">Key improvements:</span>
-                    Dynamic question prompts, AI-assisted bio drafting, sitter approval &amp; edit controls.
-                  </p>
+                  <p className="text-xs text-theme-muted-foreground mt-2">AI-guided drafting, sitter approval</p>
                 </div>
               </div>
             </div>
 
             {/* Solution 3 UI Screens Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+              <figure className="max-w-[280px] mx-auto w-full">
+                <div className="overflow-hidden transition-transform duration-300 hover:scale-[1.02]">
+                  <Image
+                    src={profilePhotoDetailsImg}
+                    alt="Profile photo and experience details input"
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+                <figcaption className="mt-3 text-sm">
+                  <span className="font-semibold block text-theme-foreground">Profile &amp; experience details</span>
+                  <span className="text-theme-muted-foreground">Dynamic prompts surfacing specialized qualifications sitters might forget to highlight.</span>
+                </figcaption>
+              </figure>
               <figure className="max-w-[280px] mx-auto w-full">
                 <div className="overflow-hidden transition-transform duration-300 hover:scale-[1.02]">
                   <Image
@@ -1068,19 +994,6 @@ export default function FloofersCaseStudyPage() {
               <figure className="max-w-[280px] mx-auto w-full">
                 <div className="overflow-hidden transition-transform duration-300 hover:scale-[1.02]">
                   <Image
-                    src={profilePhotoDetailsImg}
-                    alt="Profile photo and experience details input"
-                    className="w-full h-auto object-cover"
-                  />
-                </div>
-                <figcaption className="mt-3 text-sm">
-                  <span className="font-semibold block text-theme-foreground">Profile &amp; experience details</span>
-                  <span className="text-theme-muted-foreground">Dynamic prompts surfacing specialized qualifications sitters might forget to highlight.</span>
-                </figcaption>
-              </figure>
-              <figure className="max-w-[280px] mx-auto w-full">
-                <div className="overflow-hidden transition-transform duration-300 hover:scale-[1.02]">
-                  <Image
                     src={aiProfileGeneratorStateImg}
                     alt="Drafting not deciding state"
                     className="w-full h-auto object-cover"
@@ -1110,26 +1023,26 @@ export default function FloofersCaseStudyPage() {
               <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
                 <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">Step 1</p>
                 <h3 className="font-bold text-theme-foreground mb-2">Experience analysis</h3>
-                <p className="text-sm text-theme-muted-foreground">Dynamic questions that adapt based on earlier answers and surface specialization opportunities.</p>
+                <p className="text-sm text-theme-muted-foreground">Adaptive questions surface specializations.</p>
               </div>
               <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
                 <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">Step 2</p>
-                <h3 className="font-bold text-theme-foreground mb-2">Smart content suggestions</h3>
-                <p className="text-sm text-theme-muted-foreground">Writing help for the bio, plus pricing guidance based on local market data.</p>
+                <h3 className="font-bold text-theme-foreground mb-2">Smart suggestions</h3>
+                <p className="text-sm text-theme-muted-foreground">Bio writing help + local market pricing guidance.</p>
               </div>
               <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
                 <p className="text-xs font-semibold tracking-[0.1em] uppercase text-theme-muted-foreground mb-2">Step 3</p>
-                <h3 className="font-bold text-theme-foreground mb-2">Performance optimization</h3>
-                <p className="text-sm text-theme-muted-foreground">A real-time profile-strength meter with concrete, specific tips — not just a percentage.</p>
+                <h3 className="font-bold text-theme-foreground mb-2">Profile strength</h3>
+                <p className="text-sm text-theme-muted-foreground">Real-time meter with actionable tips, not just a %.</p>
               </div>
             </div>
 
             <div className="rounded-2xl bg-gray-100 dark:bg-gray-800 p-6 mb-10 border border-theme-border dark:text-gray">
-              <h3 className="font-bold text-theme-foreground mb-3">The AI writing assistant, in practice</h3>
+              <h3 className="font-bold text-theme-foreground mb-3">AI writing assistant in practice</h3>
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 text-sm">
                 <span className="bg-white dark:bg-gray-805 border border-theme-border rounded-lg px-4 py-2 text-theme-muted-foreground">&quot;I love dogs&quot;</span>
                 <span className="text-amber-600 font-bold" aria-hidden="true">→</span>
-                <span className="bg-white dark:bg-gray-805 border border-theme-border rounded-lg px-4 py-2 text-theme-foreground font-semibold">&quot;I specialise in anxious rescue dogs and have 3 years of experience with behavioural rehabilitation.&quot;</span>
+                <span className="bg-white dark:bg-gray-805 border border-theme-border rounded-lg px-4 py-2 text-theme-foreground font-semibold">&quot;I specialise in anxious rescue dogs with 3 years of behavioural rehabilitation experience.&quot;</span>
               </div>
             </div>
 
@@ -1150,7 +1063,7 @@ export default function FloofersCaseStudyPage() {
         <section className="max-w-6xl mx-auto px-6 md:px-10 py-16 mt-10 border-t border-theme-border">
           <div className="reveal max-w-2xl mb-8">
             <h2 className="text-2xl md:text-3xl mb-4 font-bold text-theme-foreground">Technical implementation</h2>
-            <p className="text-theme-muted-foreground leading-relaxed">Rather than building machine learning from scratch, I worked with our data scientist to wire together proven, reliable services — and spent my own effort on how the results were shown and explained.</p>
+            <p className="text-theme-muted-foreground leading-relaxed">Proven services wired together — my effort went into how results are shown and explained.</p>
           </div>
 
           <div className="reveal grid md:grid-cols-2 gap-x-12 gap-y-3 text-sm mb-10 border-t border-theme-border pt-2">
@@ -1190,7 +1103,7 @@ export default function FloofersCaseStudyPage() {
           </div>
 
           <p className="reveal text-sm text-theme-muted-foreground max-w-2xl mb-6 leading-relaxed">
-            Search relevance alone lifted booking conversion 58% for the sessions that used it. Layered with faster verification (more active sitters live at any time) and stronger profiles (more owner confidence at first glance), the platform-wide conversion improvement compounds to 171%.
+            Search relevance lifted conversion 58% alone. Layered with faster verification and stronger profiles, platform-wide improvement compounds to 171%.
           </p>
 
           <div className="reveal grid sm:grid-cols-3 gap-6 border-t border-theme-border pt-8 mb-6">
@@ -1199,7 +1112,7 @@ export default function FloofersCaseStudyPage() {
             <div><p className="text-2xl text-theme-foreground font-bold">−29%</p><p className="text-sm text-theme-muted-foreground mt-1">customer support volume</p></div>
           </div>
 
-          <div className="reveal p-4 rounded-xl bg-gray-100 dark:bg-gray-800/60 border border-theme-border text-xs text-theme-muted-foreground italic">
+          <div className="reveal p-4 rounded-xl bg-gray-100 dark:bg-gray-800/60 dark:text-gray-100  border border-theme-border text-xs text-theme-muted-foreground italic">
             These are pre-launch projections presented to stakeholders to prioritize the roadmap — not yet validated against live usage. I&apos;ll update this case study with real numbers once the features ship.
           </div>
         </section>
@@ -1208,24 +1121,21 @@ export default function FloofersCaseStudyPage() {
         <section className="max-w-6xl mx-auto px-6 md:px-10 py-16">
           <div className="reveal max-w-2xl mb-8">
             <h2 className="text-2xl md:text-3xl mb-4 font-bold text-theme-foreground">What I learned</h2>
-            <p className="text-theme-muted-foreground leading-relaxed">
-              This project changed how I approach AI feature design. Key takeaways tied directly to this work:
-            </p>
           </div>
           <div className="reveal grid sm:grid-cols-2 gap-6 text-base">
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-xl text-amber-700 dark:text-amber-400 mb-2 font-bold font-display">01</p>
-              <p className="font-semibold text-theme-foreground mb-1">A visible reason outperforms a bare score.</p>
+              <p className="font-semibold text-theme-foreground mb-1">Visible reasons &gt; bare scores.</p>
               <p className="text-xs text-theme-muted-foreground leading-relaxed">
-                Early designs showed sitters ranked with just a % match. In feedback sessions, owners trusted a plain-language reason (&quot;3 years with senior dogs&quot;) far more than a number alone — so every result got a &quot;why this match&quot; line before anything else changed.
+                &quot;3 years with senior dogs&quot; builds more trust than &quot;94% Match&quot; ever could.
               </p>
             </div>
 
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-xl text-amber-700 dark:text-amber-400 mb-2 font-bold font-display">02</p>
-              <p className="font-semibold text-theme-foreground mb-1">Speed without transparency reads as reckless, not helpful.</p>
+              <p className="font-semibold text-theme-foreground mb-1">Speed without transparency feels reckless.</p>
               <p className="text-xs text-theme-muted-foreground leading-relaxed">
-                The first verification flow was fully automated for speed. Sitters didn&apos;t trust a decision they couldn&apos;t see reasoning behind — the fix wasn&apos;t slowing down, it was showing the &quot;what&apos;s happening now&quot; state honestly.
+                The fix wasn&apos;t slowing down — it was showing what&apos;s happening honestly.
               </p>
             </div>
 
@@ -1233,15 +1143,15 @@ export default function FloofersCaseStudyPage() {
               <p className="text-xl text-amber-700 dark:text-amber-400 mb-2 font-bold font-display">03</p>
               <p className="font-semibold text-theme-foreground mb-1">AI should draft, never publish.</p>
               <p className="text-xs text-theme-muted-foreground leading-relaxed">
-                Every AI-generated output in this product — bios, match reasons, verification results — is framed as a first pass the human reviews, never a finished decision made for them.
+                Every AI output is a first pass the human reviews.
               </p>
             </div>
 
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-xl text-amber-700 dark:text-amber-400 mb-2 font-bold font-display">04</p>
-              <p className="font-semibold text-theme-foreground mb-1">The best AI feature is the one you don&apos;t notice you&apos;re using.</p>
+              <p className="font-semibold text-theme-foreground mb-1">The best AI feature is invisible.</p>
               <p className="text-xs text-theme-muted-foreground leading-relaxed">
-                Owners didn&apos;t say &quot;I love the AI search&quot; — they said &quot;I found the right sitter fast.&quot; That&apos;s the actual bar.
+                Users said &quot;I found the right sitter fast&quot; — not &quot;I love the AI.&quot;
               </p>
             </div>
           </div>
@@ -1252,7 +1162,7 @@ export default function FloofersCaseStudyPage() {
           <div className="reveal max-w-2xl">
             <h2 className="text-2xl md:text-3xl mb-4 font-bold text-theme-foreground">Looking ahead</h2>
             <p className="text-theme-muted-foreground leading-relaxed">
-              Next up for Floofers: smarter seasonal recommendations, integration with pet health data and predictive sitter availability. The foundation stays the same — technology that helps humans make better, more personal decisions.
+              Next: seasonal recommendations, pet health data integration, predictive sitter availability. Same foundation — technology that helps humans decide better.
             </p>
           </div>
         </section>
