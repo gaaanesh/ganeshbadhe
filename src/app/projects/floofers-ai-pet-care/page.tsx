@@ -483,7 +483,7 @@ export default function FloofersCaseStudyPage() {
                         BEFORE — LEGACY EXPERIENCE
                       </span>
                     </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3">
+                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
                       <Image
                         src={oldVerificationImg}
                         alt="Legacy verification process"
@@ -504,7 +504,7 @@ export default function FloofersCaseStudyPage() {
                         AFTER — REDESIGNED AI FLOW
                       </span>
                     </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3">
+                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
                       <video
                         src="/images/projects/floofers-media/solution-1-Quick-verification-pet-sitters.mp4"
                         controls
@@ -753,7 +753,7 @@ export default function FloofersCaseStudyPage() {
                         BEFORE — LEGACY EXPERIENCE
                       </span>
                     </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3">
+                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
                       <Image
                         src={oldSearchResultImg}
                         alt="Legacy search result screen"
@@ -774,7 +774,7 @@ export default function FloofersCaseStudyPage() {
                         AFTER — REDESIGNED AI FLOW
                       </span>
                     </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3">
+                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
                       <video
                         src="/images/projects/floofers-media/Solution-2-Smart-search-pet-owners.mp4"
                         controls
@@ -970,7 +970,7 @@ export default function FloofersCaseStudyPage() {
                         BEFORE — LEGACY EXPERIENCE
                       </span>
                     </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3">
+                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
                       <Image
                         src={oldProfileImg}
                         alt="Legacy profile creation screen"
@@ -991,7 +991,7 @@ export default function FloofersCaseStudyPage() {
                         AFTER — REDESIGNED AI FLOW
                       </span>
                     </div>
-                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3">
+                    <div className="overflow-hidden rounded-lg border border-theme-border bg-white dark:bg-gray-950 shadow-sm mb-3 max-w-[250px] mx-auto w-full">
                       <video
                         src="/images/projects/floofers-media/solution-3-AI-assisted-profile-builder-sitters.mp4"
                         controls
