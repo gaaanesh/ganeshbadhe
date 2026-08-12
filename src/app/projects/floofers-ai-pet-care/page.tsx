@@ -475,8 +475,8 @@ export default function FloofersCaseStudyPage() {
                 </span>
               </div>
 
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="rounded-xl border border-red-200/60 dark:border-red-900/40 bg-red-500/5 p-4 flex flex-col justify-between">
+              <div className="flex flex-col sm:flex-row items-stretch justify-center gap-6 max-w-2xl mx-auto">
+                <div className="w-full max-w-[290px] rounded-xl border border-red-200/60 dark:border-red-900/40 bg-red-500/5 p-4 flex flex-col justify-between mx-auto">
                   <div>
                     <div className="flex items-center justify-between mb-3">
                       <span className="px-2.5 py-1 rounded bg-red-100 dark:bg-red-950/60 text-red-700 dark:text-red-300 text-[10px] font-bold uppercase tracking-wider">
@@ -497,7 +497,7 @@ export default function FloofersCaseStudyPage() {
                   </p>
                 </div>
 
-                <div className="rounded-xl border border-emerald-200/60 dark:border-emerald-900/40 bg-emerald-500/5 p-4 flex flex-col justify-between">
+                <div className="w-full max-w-[290px] rounded-xl border border-emerald-200/60 dark:border-emerald-900/40 bg-emerald-500/5 p-4 flex flex-col justify-between mx-auto">
                   <div>
                     <div className="flex items-center justify-between mb-3">
                       <span className="px-2.5 py-1 rounded bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 text-[10px] font-bold uppercase tracking-wider">
@@ -745,8 +745,8 @@ export default function FloofersCaseStudyPage() {
                 </span>
               </div>
 
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="rounded-xl border border-red-200/60 dark:border-red-900/40 bg-red-500/5 p-4 flex flex-col justify-between">
+              <div className="flex flex-col sm:flex-row items-stretch justify-center gap-6 max-w-2xl mx-auto">
+                <div className="w-full max-w-[290px] rounded-xl border border-red-200/60 dark:border-red-900/40 bg-red-500/5 p-4 flex flex-col justify-between mx-auto">
                   <div>
                     <div className="flex items-center justify-between mb-3">
                       <span className="px-2.5 py-1 rounded bg-red-100 dark:bg-red-950/60 text-red-700 dark:text-red-300 text-[10px] font-bold uppercase tracking-wider">
@@ -767,7 +767,7 @@ export default function FloofersCaseStudyPage() {
                   </p>
                 </div>
 
-                <div className="rounded-xl border border-emerald-200/60 dark:border-emerald-900/40 bg-emerald-500/5 p-4 flex flex-col justify-between">
+                <div className="w-full max-w-[290px] rounded-xl border border-emerald-200/60 dark:border-emerald-900/40 bg-emerald-500/5 p-4 flex flex-col justify-between mx-auto">
                   <div>
                     <div className="flex items-center justify-between mb-3">
                       <span className="px-2.5 py-1 rounded bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 text-[10px] font-bold uppercase tracking-wider">
@@ -962,8 +962,8 @@ export default function FloofersCaseStudyPage() {
                 </span>
               </div>
 
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="rounded-xl border border-red-200/60 dark:border-red-900/40 bg-red-500/5 p-4 flex flex-col justify-between">
+              <div className="flex flex-col sm:flex-row items-stretch justify-center gap-6 max-w-2xl mx-auto">
+                <div className="w-full max-w-[290px] rounded-xl border border-red-200/60 dark:border-red-900/40 bg-red-500/5 p-4 flex flex-col justify-between mx-auto">
                   <div>
                     <div className="flex items-center justify-between mb-3">
                       <span className="px-2.5 py-1 rounded bg-red-100 dark:bg-red-950/60 text-red-700 dark:text-red-300 text-[10px] font-bold uppercase tracking-wider">
@@ -984,7 +984,7 @@ export default function FloofersCaseStudyPage() {
                   </p>
                 </div>
 
-                <div className="rounded-xl border border-emerald-200/60 dark:border-emerald-900/40 bg-emerald-500/5 p-4 flex flex-col justify-between">
+                <div className="w-full max-w-[290px] rounded-xl border border-emerald-200/60 dark:border-emerald-900/40 bg-emerald-500/5 p-4 flex flex-col justify-between mx-auto">
                   <div>
                     <div className="flex items-center justify-between mb-3">
                       <span className="px-2.5 py-1 rounded bg-emerald-100 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 text-[10px] font-bold uppercase tracking-wider">
