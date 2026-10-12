@@ -36,6 +36,8 @@ export default function Accordion({
         </div>
         <svg
           className="w-4 h-4 text-theme-muted-foreground transition-transform duration-200 group-open:rotate-180 shrink-0"
+          width="16"
+          height="16"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
