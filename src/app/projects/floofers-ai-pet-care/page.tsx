@@ -75,7 +75,7 @@ export default function FloofersCaseStudyPage() {
               Floofers: transforming <span className="text-theme-secondary-foreground italic font-normal">pet care</span> with AI intelligence
             </h1>
             <p className="mt-6 text-lg md:text-xl text-theme-muted-foreground leading-relaxed max-w-2xl">
-              Cutting pet-sitting discovery time nearly 3× (23 min → 8 min) by introducing contextual AI matching and automated sitter verification where trust matters most.
+              Cutting pet-sitting discovery time nearly 3x (23 min → 8 min) by introducing contextual AI matching and automated sitter verification where trust matters most.
             </p>
 
             <WatchCaseStudyLink
@@ -127,25 +127,21 @@ export default function FloofersCaseStudyPage() {
             </div>
           </div>
 
-          {/* Collapsible methodology block — replaces "Full assumptions available on request" */}
+          {/* Collapsible methodology block */}
           <Accordion title="How these numbers were derived" className="mt-6">
             <div className="pt-4 space-y-3 text-sm text-theme-muted-foreground">
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <p className="text-xs font-semibold tracking-wider uppercase text-theme-muted-foreground mb-1">Baseline source</p>
-                  <p>Floofers&apos; historical funnel data (verification → search → booking)</p>
+                  <p>Historical funnel data provided directly by the client team at project kickoff</p>
                 </div>
                 <div>
-                  <p className="text-xs font-semibold tracking-wider uppercase text-theme-muted-foreground mb-1">Date range</p>
-                  <p>Q3–Q4 pre-redesign platform logs (90-day baseline)</p>
+                  <p className="text-xs font-semibold tracking-wider uppercase text-theme-muted-foreground mb-1">Validation method</p>
+                  <p>Moderated usability testing with pet parents and sitters (n=8)</p>
                 </div>
-                <div>
-                  <p className="text-xs font-semibold tracking-wider uppercase text-theme-muted-foreground mb-1">Method</p>
-                  <p>Funnel drop-off rates × time-on-task reduction from usability testing (n=8, moderated)</p>
-                </div>
-                <div>
-                  <p className="text-xs font-semibold tracking-wider uppercase text-theme-muted-foreground mb-1">Formula &amp; assumptions</p>
-                  <p>Usability lab task completion rates projected against drop-off at each stage of the three core flows.</p>
+                <div className="sm:col-span-2">
+                  <p className="text-xs font-semibold tracking-wider uppercase text-theme-muted-foreground mb-1">How projections were calculated</p>
+                  <p>We modeled these estimates by comparing the client&apos;s pre-redesign drop-off data against the task completion rates and time saved during interactive prototype testing.</p>
                 </div>
               </div>
             </div>
@@ -411,7 +407,7 @@ export default function FloofersCaseStudyPage() {
             <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">
               <div className="flex-1 text-center md:text-left">
                 <p className="italic text-2xl md:text-3xl lg:text-4xl leading-snug text-theme-foreground font-bold">
-                  &quot;Rather than adding a novelty AI bot, I focused intelligence strictly where friction peaked: verification delays, search fatigue, and onboarding inertia.&quot;
+                  &quot;Rather than adding a novelty AI bot, I focused intelligence strictly where friction peaked: verification delays, search fatigue and onboarding inertia.&quot;
                 </p>
                 <p className="text-xs text-theme-muted-foreground mt-3 italic">
                   Optional overview — each moment is detailed individually below.
@@ -520,7 +516,7 @@ export default function FloofersCaseStudyPage() {
                   <p className="text-xs font-semibold tracking-wider uppercase text-amber-700 dark:text-amber-400 mb-2">Path B: Human fallback (~20% target volume)</p>
                   <p className="text-sm text-theme-muted-foreground leading-relaxed mb-2">AI flags edge-case ambiguity → routed to Certn.co human reviewer with guaranteed 2-hour SLA</p>
                   <p className="text-xs text-theme-muted-foreground">
-                    Routing criteria: low scan resolution, expired ID, or address discrepancy requiring secondary validation.
+                    Routing criteria: low scan resolution, expired ID or address discrepancy requiring secondary validation.
                   </p>
                 </div>
               </div>
@@ -1012,7 +1008,7 @@ export default function FloofersCaseStudyPage() {
               <li className="flex gap-3"><span className="text-emerald-600 font-bold">✓</span> <span>Designed in: Personal data encrypted and anonymized before training</span></li>
               <li className="flex gap-3"><span className="text-emerald-600 font-bold">✓</span> <span>Designed in: Clear, explicit consent for every AI-powered feature</span></li>
               <li className="flex gap-3"><span className="text-emerald-600 font-bold">✓</span> <span>Designed in: Opt-out available for any AI functionality</span></li>
-              <li className="flex gap-3"><span className="text-amber-600 font-bold">◇</span> <span>Governance roadmap: Quarterly fairness reviews across pet breed, pricing tiers, and regional coverage</span></li>
+              <li className="flex gap-3"><span className="text-amber-600 font-bold">◇</span> <span>Governance roadmap: Quarterly fairness reviews across pet breed, pricing tiers and regional coverage</span></li>
             </ul>
           </div>
         </section>
@@ -1093,7 +1089,7 @@ export default function FloofersCaseStudyPage() {
               <p className="text-xs font-semibold tracking-wider uppercase text-emerald-700 dark:text-emerald-400 mb-2">Deliverable status</p>
               <h3 className="font-bold text-theme-foreground mb-1">Validated Prototypes</h3>
               <p className="text-xs text-theme-muted-foreground leading-relaxed">
-                Delivered interactive Figma component specs, edge-case states, and usability testing findings (n=8) to engineering.
+                Delivered interactive Figma component specs, edge-case states and usability testing findings (n=8) to engineering.
               </p>
             </div>
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
