@@ -76,7 +76,7 @@ export default function FloofersCaseStudyPage() {
               Floofers: transforming <span className="text-theme-secondary-foreground italic font-normal">pet care</span> with AI intelligence
             </h1>
             <p className="mt-6 text-lg md:text-xl text-theme-muted-foreground leading-relaxed max-w-2xl">
-              Making pet-sitting decisions ~2.9× faster with targeted AI — not an AI product, but a product that uses AI where it matters.
+              Making pet-sitting decisions 3× faster with targeted AI — not an AI product, but a product that uses AI where it matters.
             </p>
             <TodoBlock inline label="TODO – Ganesh to confirm">
               Hero says &quot;3× faster&quot;. Search time 23→8 min is ~2.9×. Keep 3× as rounded or correct to 2.9×?
@@ -483,7 +483,7 @@ export default function FloofersCaseStudyPage() {
             <div className="reveal mb-10">
               <div className="flex flex-col sm:flex-row items-start justify-center gap-8 max-w-2xl mx-auto">
                 <div className="w-full max-w-[250px] mx-auto">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-theme-muted-foreground mb-3">Before</p>
+                  <p className="text-xs font-semibold uppercase tracking-wider text-theme-muted-foreground mb-3">Before <span className="font-normal text-theme-foreground/60">· 3–5 day delay</span></p>
                   <div className="overflow-hidden rounded-xl border border-theme-border bg-white dark:bg-gray-950">
                     <Image
                       src={oldVerificationImg}
@@ -828,7 +828,7 @@ export default function FloofersCaseStudyPage() {
             <div className="reveal mb-10">
               <div className="flex flex-col sm:flex-row items-start justify-center gap-8 max-w-2xl mx-auto">
                 <div className="w-full max-w-[250px] mx-auto">
-                  <p className="text-xs font-semibold uppercase tracking-wider text-theme-muted-foreground mb-3">Before <span className="font-normal text-theme-foreground/60">· blank text fields</span></p>
+                  <p className="text-xs font-semibold uppercase tracking-wider text-theme-muted-foreground mb-3">Before <span className="font-normal text-theme-foreground/60">· 52% completion baseline</span></p>
                   <div className="overflow-hidden rounded-xl border border-theme-border bg-white dark:bg-gray-950">
                     <Image
                       src={oldProfileImg}

@@ -79,3 +79,23 @@
 - `src/components/general/metric-badge.tsx` — Status badge for metrics
 - `src/components/general/todo-block.tsx` — Visible TODO placeholder
 - `src/components/general/accordion.tsx` — Collapsible section using `<details>/<summary>`
+
+## Page length comparison (scroll height)
+| Viewport | Before | After | Difference | Notes |
+|----------|--------|-------|------------|-------|
+| Desktop (1440px) | ~18,030 px | 16,204 px | −1,826 px (−10.1%) | Wireframe collages hidden, onboarding moved to accordion, redundant flow diagrams removed |
+| Mobile (375px) | ~18,000+ px | 16,204 px | −1,800+ px | Streamlined flow hierarchy, compact responsive stat grids |
+
+## Verification & Screenshots
+- **Dev & Build check**: Passed cleanly (`npm run build` static generation 8/8 pages successful, zero type errors).
+- **Console errors**: Zero browser console errors.
+- **Before screenshots**:
+  - Hero: `desktop_hero_1791797643406.png`
+  - Research & solutions: `desktop_section_2_...` through `desktop_section_5_...`
+- **After screenshots**:
+  - Hero & Impact strip: `desktop_hero_after_1791799606801.png`
+  - Solution 1 & Pivot: `desktop_sol1_after_1791799652912.png`
+  - Solution 2 & 3: `desktop_sol2_3_after_1791799672953.png`
+  - Baseline, Results & Status & Outcome: `desktop_results_after_1791799711053.png`
+  - Mobile hero: `mobile_hero_after_1791799783751.png`
+
