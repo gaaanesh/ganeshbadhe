@@ -222,20 +222,20 @@ export default function FloofersCaseStudyPage() {
           <div className="reveal grid md:grid-cols-3 gap-6 mb-10">
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-2xl text-theme-foreground mb-2 font-bold">01</p>
-              <h3 className="font-bold text-theme-foreground mb-2">Slow verification</h3>
-              <p className="text-xs font-medium text-amber-700 dark:text-amber-400 mb-2">Felt by: sitters · Caused by: manual review process</p>
+              <h3 className="font-bold text-theme-foreground mb-2">Slow verification for pet sitters</h3>
+              <p className="text-xs font-medium text-amber-700 dark:text-amber-400 mb-2">Caused by: manual review process</p>
               <p className="text-sm text-theme-muted-foreground leading-relaxed">3–5 day approval delay capped platform supply growth.</p>
             </div>
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-2xl text-theme-foreground mb-2 font-bold">02</p>
-              <h3 className="font-bold text-theme-foreground mb-2">Choice overload</h3>
-              <p className="text-xs font-medium text-indigo-700 dark:text-indigo-400 mb-2">Felt by: pet parents · Caused by: undifferentiated listings</p>
+              <h3 className="font-bold text-theme-foreground mb-2">Choice overload for pet parents</h3>
+              <p className="text-xs font-medium text-indigo-700 dark:text-indigo-400 mb-2">Caused by: undifferentiated listings</p>
               <p className="text-sm text-theme-muted-foreground leading-relaxed">23 min average scrolling near-identical profiles before booking.</p>
             </div>
             <div className="rounded-2xl border border-theme-border p-6 bg-gray-50/50 dark:bg-gray-900/30 backdrop-blur-sm">
               <p className="text-2xl text-theme-foreground mb-2 font-bold">03</p>
               <h3 className="font-bold text-theme-foreground mb-2">Generic profiles</h3>
-              <p className="text-xs font-medium text-emerald-700 dark:text-emerald-400 mb-2">Caused by: sitters · Felt by: pet parents</p>
+              <p className="text-xs font-medium text-emerald-700 dark:text-emerald-400 mb-2">Caused by: Sitters</p>
               <p className="text-sm text-theme-muted-foreground leading-relaxed">Strong candidates couldn&apos;t surface relevant experience — generic bios don&apos;t get booked.</p>
             </div>
           </div>
@@ -406,7 +406,7 @@ export default function FloofersCaseStudyPage() {
           <div className="reveal border-b border-theme-border pb-12 md:py-16">
             <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">
               <div className="flex-1 text-center md:text-left">
-                <p className="italic text-2xl md:text-3xl lg:text-4xl leading-snug text-theme-foreground font-bold">
+                <p className="italic text-xl md:text-2xl lg:text-3xl leading-snug text-theme-foreground font-bold">
                   &quot;Rather than adding a novelty AI bot, I focused intelligence strictly where friction peaked: verification delays, search fatigue and onboarding inertia.&quot;
                 </p>
                 <p className="text-xs text-theme-muted-foreground mt-3 italic">
